@@ -1,5 +1,5 @@
 {
-    "builds": {
+"builds": {
         "web": {"default": true},
         "native": {
             "packager": "cordova",
@@ -10,8 +10,8 @@
 
                     // Name and ID properties are only used during app creation
                     // edit this if you are recreating your cordova app
-                    //"id": "com.domain.WinWithin",
-                    //"name": "WinWithin"
+                    "id": "com.domain.WinWithin",
+                    "name": "WinWithin"
                 }
             }
         }
