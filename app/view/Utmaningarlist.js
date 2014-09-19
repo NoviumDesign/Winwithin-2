@@ -9,3 +9,4 @@ Ext.define("WinWithin.view.Utmaningarlist", {
         // '</pre><div class="list-item-title {clss}">{namnge}</div><pre>',
     }
 });
+//View
