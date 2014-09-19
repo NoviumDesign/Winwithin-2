@@ -1,0 +1,817 @@
+TWinWithin
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Info.plist /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/WinWithin-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Script-304B58A110DAC018002A0835.sh
+cCpResource WinWithin/Resources/icons/icon-76.png build/emulator/WinWithin.app/icon-76.png
+cCpResource WinWithin/Resources/icons/icon-40@2x.png build/emulator/WinWithin.app/icon-40@2x.png
+cCpResource WinWithin/Resources/icons/icon-72.png build/emulator/WinWithin.app/icon-72.png
+cCpResource WinWithin/Resources/icons/icon.png build/emulator/WinWithin.app/icon.png
+cCpResource WinWithin/Resources/icons/icon@2x.png build/emulator/WinWithin.app/icon@2x.png
+cCopyStringsFile /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/en.lproj/Localizable.strings WinWithin/Resources/en.lproj/Localizable.strings
+cCompileXIB /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.xib
+cCpResource WinWithin/Resources/icons/icon-50.png build/emulator/WinWithin.app/icon-50.png
+cCpResource WinWithin/Resources/icons/icon-60@2x.png build/emulator/WinWithin.app/icon-60@2x.png
+cCopyStringsFile /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/de.lproj/Localizable.strings WinWithin/Resources/de.lproj/Localizable.strings
+cCpResource WinWithin/Resources/icons/icon-small.png build/emulator/WinWithin.app/icon-small.png
+cCpResource WinWithin/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/WinWithin.app/Default-Landscape@2x~ipad.png
+cCpResource WinWithin/Resources/splash/Default-Landscape~ipad.png build/emulator/WinWithin.app/Default-Landscape~ipad.png
+cCpResource WinWithin/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/WinWithin.app/Default-Portrait@2x~ipad.png
+cCpResource WinWithin/Resources/icons/icon-small@2x.png build/emulator/WinWithin.app/icon-small@2x.png
+cCpResource WinWithin/Resources/splash/Default-Portrait~ipad.png build/emulator/WinWithin.app/Default-Portrait~ipad.png
+cCpResource WinWithin/Resources/icons/icon-40.png build/emulator/WinWithin.app/icon-40.png
+cCpResource WinWithin/Resources/splash/Default@2x~iphone.png build/emulator/WinWithin.app/Default@2x~iphone.png
+cCpResource WinWithin/Resources/icons/icon-60.png build/emulator/WinWithin.app/icon-60.png
+cCpResource WinWithin/Resources/splash/Default~iphone.png build/emulator/WinWithin.app/Default~iphone.png
+cCpResource WinWithin/Resources/splash/Default-568h@2x~iphone.png build/emulator/WinWithin.app/Default-568h@2x~iphone.png
+cCpResource WinWithin/Resources/icons/icon-50@2x.png build/emulator/WinWithin.app/icon-50@2x.png
+cCpResource WinWithin/Resources/icons/icon-76@2x.png build/emulator/WinWithin.app/icon-76@2x.png
+cCpResource WinWithin/Resources/icons/icon-72@2x.png build/emulator/WinWithin.app/icon-72@2x.png
+cProcessPCH /var/folders/r3/324rxt514qj0727gv98dvnr80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/WinWithin-Prefix-dtdxfhcnjqjezycpvjveimboulfm/WinWithin-Prefix.pch.pch WinWithin/WinWithin-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/main.o /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/AppDelegate.o /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/MainViewController.o /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/WinWithin normal i386
+cGenerateDSYMFile /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app.dSYM /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/WinWithin
+cTouch /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053204DD200000000000003B4
+t1394626002
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053204DDF000000000000019E
+t1394626015
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000053204DE20000000000059340
+t1394626018
+s365376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053204DE40000000000446820
+t1394626020
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000053204DE400000000000F1A80
+t1394626020
+s989824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000053204DE800000000001BE790
+t1394626024
+s1828752
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/AppDelegate.m
+c0000000053F31764000000000000176D
+t1408440164
+s5997
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.m
+c0000000053F31764000000000000126A
+t1408440164
+s4714
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.xib
+c0000000053F317640000000000001759
+t1408440164
+s5977
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/de.lproj/Localizable.strings
+c0000000053F3176400000000000004C0
+t1408440164
+s1216
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/en.lproj/Localizable.strings
+c0000000053F3176400000000000004AB
+t1408440164
+s1195
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-40.png
+c0000000053F3176400000000000002A4
+t1408440164
+s676
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-40@2x.png
+c0000000053F3176400000000000004E4
+t1408440164
+s1252
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-50.png
+c0000000053F31764000000000000030C
+t1408440164
+s780
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-50@2x.png
+c0000000053F31764000000000000065B
+t1408440164
+s1627
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-60.png
+c0000000053F3176400000000000003A3
+t1408440164
+s931
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-60@2x.png
+c0000000053F3176400000000000007B5
+t1408440164
+s1973
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-72.png
+c0000000053F317640000000000000471
+t1408440164
+s1137
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-72@2x.png
+c0000000053F317640000000000000936
+t1408440164
+s2358
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-76.png
+c0000000053F31764000000000000048D
+t1408440164
+s1165
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-76@2x.png
+c0000000053F31764000000000000096B
+t1408440164
+s2411
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-small.png
+c0000000053F317640000000000000201
+t1408440164
+s513
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-small@2x.png
+c0000000053F317640000000000000387
+t1408440164
+s903
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon.png
+c0000000053F3176400000000000003BD
+t1408440164
+s957
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon@2x.png
+c0000000053F3176400000000000006DD
+t1408440164
+s1757
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/splash/Default-568h@2x~iphone.png
+c0000000053F317640000000000005433
+t1408440164
+s21555
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000053F317640000000000033D0A
+t1408440164
+s212234
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/splash/Default-Landscape~ipad.png
+c0000000053F3176400000000000166A2
+t1408440164
+s91810
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000053F317640000000000033F7C
+t1408440164
+s212860
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/splash/Default-Portrait~ipad.png
+c0000000053F317640000000000016641
+t1408440164
+s91713
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/splash/Default@2x~iphone.png
+c0000000053F31764000000000000550F
+t1408440164
+s21775
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/splash/Default~iphone.png
+c0000000053F317640000000000004ED8
+t1408440164
+s20184
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/WinWithin-Info.plist
+c00000000541AB6340000000000000A18
+t1411036724
+s2584
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/WinWithin-Prefix.pch
+c0000000053F3176400000000000003C3
+t1408440164
+s963
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/main.m
+c0000000053F31764000000000000045B
+t1408440164
+s1115
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/AppDelegate.o
+t1411036750
+s77496
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/MainViewController.o
+t1411036750
+s51664
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/WinWithin.LinkFileList
+c00000000541AB63B000000000000020D
+t1411036731
+s525
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/main.o
+t1411036750
+s3060
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Script-304B58A110DAC018002A0835.sh
+c00000000541AB63B000000000000002D
+t1411036731
+s45
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app
+t1411036752
+s1020
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app.dSYM
+t2
+s0
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Default-568h@2x~iphone.png
+t1411036732
+s21555
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Default-Landscape@2x~ipad.png
+t1411036731
+s212234
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Default-Landscape~ipad.png
+t1411036731
+s91810
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Default-Portrait@2x~ipad.png
+t1411036732
+s212860
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Default-Portrait~ipad.png
+t1411036732
+s91713
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Default@2x~iphone.png
+t1411036732
+s21775
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Default~iphone.png
+t1411036732
+s20184
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Info.plist
+t1411036731
+s1290
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/MainViewController.nib
+t1411036749
+s836
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/PkgInfo
+t2
+s0
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/WinWithin
+t1411036752
+s278004
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/de.lproj/Localizable.strings
+t1411036731
+s280
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/en.lproj/Localizable.strings
+t1411036731
+s166
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-40.png
+t1411036732
+s676
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-40@2x.png
+t1411036731
+s1252
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-50.png
+t1411036731
+s780
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-50@2x.png
+t1411036732
+s1627
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-60.png
+t1411036732
+s931
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-60@2x.png
+t1411036731
+s1973
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-72.png
+t1411036731
+s1137
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-72@2x.png
+t1411036732
+s2358
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-76.png
+t1411036731
+s1165
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-76@2x.png
+t1411036732
+s2411
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-small.png
+t1411036731
+s513
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-small@2x.png
+t1411036731
+s903
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon.png
+t1411036731
+s957
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon@2x.png
+t1411036731
+s1757
+
+N/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/libCordova.a
+c00000000541AB63B00000000000D49C8
+t1411036731
+s870856
+
+N/var/folders/r3/324rxt514qj0727gv98dvnr80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/WinWithin-Prefix-dtdxfhcnjqjezycpvjveimboulfm/WinWithin-Prefix.pch.pch
+t1411036750
+s5377288
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies44a88ebbedcab941^5abd93bbedcab941^---0#1#1#--18"Check dependencies36"C3C590A9-7BB7-4CC6-9DCA-7F04233D9FBE-
+
+CCompileC build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/AppDelegate.o /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s432729550.312957
+e432729550.596258
+r1
+xCompileC
+xbuild/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/AppDelegate.o
+x/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/AppDelegate.m
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/AppDelegate.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/AppDelegate.m202"CompileC build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/AppDelegate.o WinWithin/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6e6e50ceedcab941^a0a498ceedcab941^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/AppDelegate.m0000000000000000^4521"CompileC build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/AppDelegate.o WinWithin/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/WinWithin-generated-files.hmap -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/WinWithin-own-target-headers.hmap -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/WinWithin-all-target-headers.hmap -iquote /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/WinWithin-project-headers.hmap -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/usr/local/lib/include -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/UninstalledProducts/include -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/DerivedSources/i386 -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/DerivedSources -F/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator -include /var/folders/r3/324rxt514qj0727gv98dvnr80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/WinWithin-Prefix-dtdxfhcnjqjezycpvjveimboulfm/WinWithin-Prefix.pch -MMD -MT dependencies -MF /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/AppDelegate.dia -c /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/AppDelegate.m -o /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/AppDelegate.o36"85C4F875-4481-4A48-93B3-08B204A51586-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCompileC build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/MainViewController.o /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s432729550.313629
+e432729550.575928
+r1
+xCompileC
+xbuild/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/MainViewController.o
+x/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.m
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.m216"CompileC build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/MainViewController.o WinWithin/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler018750ceedcab941^e36f93ceedcab941^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.m0000000000000000^4563"CompileC build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/MainViewController.o WinWithin/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/WinWithin-generated-files.hmap -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/WinWithin-own-target-headers.hmap -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/WinWithin-all-target-headers.hmap -iquote /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/WinWithin-project-headers.hmap -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/usr/local/lib/include -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/UninstalledProducts/include -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/DerivedSources/i386 -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/DerivedSources -F/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator -include /var/folders/r3/324rxt514qj0727gv98dvnr80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/WinWithin-Prefix-dtdxfhcnjqjezycpvjveimboulfm/WinWithin-Prefix.pch -MMD -MT dependencies -MF /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/MainViewController.dia -c /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.m -o /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/MainViewController.o36"B8FA3017-6DEC-4301-8F9B-C606D33C62F9-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCompileC build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/main.o /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s432729550.312138
+e432729550.467774
+r1
+xCompileC
+xbuild/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/main.o
+x/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/main.m180"CompileC build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/main.o WinWithin/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler403350ceedcab941^6ec077ceedcab941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/main.m0000000000000000^4463"CompileC build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/main.o WinWithin/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/WinWithin-generated-files.hmap -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/WinWithin-own-target-headers.hmap -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/WinWithin-all-target-headers.hmap -iquote /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/WinWithin-project-headers.hmap -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/usr/local/lib/include -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/UninstalledProducts/include -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/DerivedSources/i386 -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/DerivedSources -F/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator -include /var/folders/r3/324rxt514qj0727gv98dvnr80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/WinWithin-Prefix-dtdxfhcnjqjezycpvjveimboulfm/WinWithin-Prefix.pch -MMD -MT dependencies -MF /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/main.dia -c /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/main.m -o /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/main.o36"39CBBBE3-1D03-4418-B925-203EE3EF1D42-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCompileXIB /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.xib
+s432729531.929693
+e432729549.683857
+r1
+xCompileXIB
+x/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.xib
+o2014-09-18 12:39:08.419 Interface Builder Cocoa Touch Tool[11680:303] CFPreferences: user home directory at file:///Users/antonkjorcklinden/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compiling /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.xib51"CompileXIB WinWithin/Classes/MainViewController.xib7862eebbedcab941^0a12afcdedcab941^-242"2014-09-18 12:39:08.419 Interface Builder Cocoa Touch Tool[11680:303] CFPreferences: user home directory at file:///Users/antonkjorcklinden/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@128"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.xib0000000000000000^1222"CompileXIB WinWithin/Classes/MainViewController.xib    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.0 --output-format human-readable-text --compile /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/MainViewController.nib /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Classes/MainViewController.xib36"AD21EF42-B25F-4301-BFB5-DB3DC36021DC-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCopyStringsFile /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/de.lproj/Localizable.strings WinWithin/Resources/de.lproj/Localizable.strings
+s432729531.934279
+e432729531.993380
+r1
+xCopyStringsFile
+x/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/de.lproj/Localizable.strings
+xWinWithin/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy WinWithin/Resources/de.lproj/Localizable.strings122"CopyStringsFile build/emulator/WinWithin.app/de.lproj/Localizable.strings WinWithin/Resources/de.lproj/Localizable.strings7d92efbbedcab941^1959febbedcab941^---0#0#1#-19%DVTDocumentLocation2@136"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/de.lproj/Localizable.strings0000000000000000^994"CopyStringsFile build/emulator/WinWithin.app/de.lproj/Localizable.strings WinWithin/Resources/de.lproj/Localizable.strings    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/de.lproj -- WinWithin/Resources/de.lproj/Localizable.strings36"28563E6B-2B1C-45A2-9F08-6C6AE8B1B1C5-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCopyStringsFile /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/en.lproj/Localizable.strings WinWithin/Resources/en.lproj/Localizable.strings
+s432729531.918742
+e432729531.934060
+r1
+xCopyStringsFile
+x/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/en.lproj/Localizable.strings
+xWinWithin/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy WinWithin/Resources/en.lproj/Localizable.strings122"CopyStringsFile build/emulator/WinWithin.app/en.lproj/Localizable.strings WinWithin/Resources/en.lproj/Localizable.stringsb952ebbbedcab941^bd36efbbedcab941^---0#0#1#-19%DVTDocumentLocation2@136"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/en.lproj/Localizable.strings0000000000000000^994"CopyStringsFile build/emulator/WinWithin.app/en.lproj/Localizable.strings WinWithin/Resources/en.lproj/Localizable.strings    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/en.lproj -- WinWithin/Resources/en.lproj/Localizable.strings36"B946B9EF-7E1C-46AA-B007-13431AC8C8D2-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/icons/icon-40.png build/emulator/WinWithin.app/icon-40.png
+s432729531.996871
+e432729532.016722
+r1
+xCpResource
+xWinWithin/Resources/icons/icon-40.png
+xbuild/emulator/WinWithin.app/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/WinWithin.app/icon-40.png89"CpResource WinWithin/Resources/icons/icon-40.png build/emulator/WinWithin.app/icon-40.png1f4bffbbedcab941^6b4804bcedcab941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-40.png003428d9ddffdf42^1041"CpResource WinWithin/Resources/icons/icon-40.png build/emulator/WinWithin.app/icon-40.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-40.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"688C3750-F0AB-4211-A3CD-1606BC71AD14-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/icons/icon-40@2x.png build/emulator/WinWithin.app/icon-40@2x.png
+s432729531.900360
+e432729531.928703
+r1
+xCpResource
+xWinWithin/Resources/icons/icon-40@2x.png
+xbuild/emulator/WinWithin.app/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/WinWithin.app/icon-40@2x.png95"CpResource WinWithin/Resources/icons/icon-40@2x.png build/emulator/WinWithin.app/icon-40@2x.png22c3e6bbedcab941^bac0edbbedcab941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-40@2x.png003428d9ddffdf42^1050"CpResource WinWithin/Resources/icons/icon-40@2x.png build/emulator/WinWithin.app/icon-40@2x.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-40@2x.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"9C3D1939-9EA5-418A-BDD4-AA801B25B6C2-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/icons/icon-50.png build/emulator/WinWithin.app/icon-50.png
+s432729531.930108
+e432729531.934729
+r1
+xCpResource
+xWinWithin/Resources/icons/icon-50.png
+xbuild/emulator/WinWithin.app/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/WinWithin.app/icon-50.png89"CpResource WinWithin/Resources/icons/icon-50.png build/emulator/WinWithin.app/icon-50.pnga8a8eebbedcab941^a0a9efbbedcab941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-50.png003428d9ddffdf42^1041"CpResource WinWithin/Resources/icons/icon-50.png build/emulator/WinWithin.app/icon-50.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-50.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"74DA2488-CBB0-4D11-BEDC-F3EA553C5A74-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/icons/icon-50@2x.png build/emulator/WinWithin.app/icon-50@2x.png
+s432729532.037746
+e432729532.039681
+r1
+xCpResource
+xWinWithin/Resources/icons/icon-50@2x.png
+xbuild/emulator/WinWithin.app/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/WinWithin.app/icon-50@2x.png95"CpResource WinWithin/Resources/icons/icon-50@2x.png build/emulator/WinWithin.app/icon-50@2x.png0dc109bcedcab941^74290abcedcab941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-50@2x.png003428d9ddffdf42^1050"CpResource WinWithin/Resources/icons/icon-50@2x.png build/emulator/WinWithin.app/icon-50@2x.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-50@2x.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"6949B0BB-C133-43D0-85DE-EB9E2B1284AD-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/icons/icon-60.png build/emulator/WinWithin.app/icon-60.png
+s432729532.016948
+e432729532.037565
+r1
+xCpResource
+xWinWithin/Resources/icons/icon-60.png
+xbuild/emulator/WinWithin.app/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/WinWithin.app/icon-60.png89"CpResource WinWithin/Resources/icons/icon-60.png build/emulator/WinWithin.app/icon-60.png4f7904bcedcab941^529e09bcedcab941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-60.png003428d9ddffdf42^1041"CpResource WinWithin/Resources/icons/icon-60.png build/emulator/WinWithin.app/icon-60.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-60.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"585FE273-1786-4A3B-99C4-F623E03D95ED-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/icons/icon-60@2x.png build/emulator/WinWithin.app/icon-60@2x.png
+s432729531.930508
+e432729531.934248
+r1
+xCpResource
+xWinWithin/Resources/icons/icon-60@2x.png
+xbuild/emulator/WinWithin.app/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/WinWithin.app/icon-60@2x.png95"CpResource WinWithin/Resources/icons/icon-60@2x.png build/emulator/WinWithin.app/icon-60@2x.png6e51eebbedcab941^d540efbbedcab941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-60@2x.png003428d9ddffdf42^1050"CpResource WinWithin/Resources/icons/icon-60@2x.png build/emulator/WinWithin.app/icon-60@2x.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-60@2x.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"2404794D-4C7B-4CCA-B4BA-15134A77A657-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/icons/icon-72.png build/emulator/WinWithin.app/icon-72.png
+s432729531.900614
+e432729531.928727
+r1
+xCpResource
+xWinWithin/Resources/icons/icon-72.png
+xbuild/emulator/WinWithin.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/WinWithin.app/icon-72.png89"CpResource WinWithin/Resources/icons/icon-72.png build/emulator/WinWithin.app/icon-72.png9bcae6bbedcab941^3814eebbedcab941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-72.png003428d9ddffdf42^1041"CpResource WinWithin/Resources/icons/icon-72.png build/emulator/WinWithin.app/icon-72.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-72.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"37CD9530-F141-4D03-A0D5-386EE317826D-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/icons/icon-72@2x.png build/emulator/WinWithin.app/icon-72@2x.png
+s432729532.038773
+e432729532.046039
+r1
+xCpResource
+xWinWithin/Resources/icons/icon-72@2x.png
+xbuild/emulator/WinWithin.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/WinWithin.app/icon-72@2x.png95"CpResource WinWithin/Resources/icons/icon-72@2x.png build/emulator/WinWithin.app/icon-72@2x.png5b080abcedcab941^bcc90bbcedcab941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-72@2x.png003428d9ddffdf42^1050"CpResource WinWithin/Resources/icons/icon-72@2x.png build/emulator/WinWithin.app/icon-72@2x.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-72@2x.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"CA6A3258-A5D8-43BE-B2ED-D87472EB6E12-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/icons/icon-76.png build/emulator/WinWithin.app/icon-76.png
+s432729531.900122
+e432729531.917920
+r1
+xCpResource
+xWinWithin/Resources/icons/icon-76.png
+xbuild/emulator/WinWithin.app/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/WinWithin.app/icon-76.png89"CpResource WinWithin/Resources/icons/icon-76.png build/emulator/WinWithin.app/icon-76.pnga48ae6bbedcab941^27f8eabbedcab941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-76.png003428d9ddffdf42^1041"CpResource WinWithin/Resources/icons/icon-76.png build/emulator/WinWithin.app/icon-76.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-76.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"5C4E0BC5-4077-4206-9879-E00984CF2061-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/icons/icon-76@2x.png build/emulator/WinWithin.app/icon-76@2x.png
+s432729532.038445
+e432729532.045562
+r1
+xCpResource
+xWinWithin/Resources/icons/icon-76@2x.png
+xbuild/emulator/WinWithin.app/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/WinWithin.app/icon-76@2x.png95"CpResource WinWithin/Resources/icons/icon-76@2x.png build/emulator/WinWithin.app/icon-76@2x.pngb9fe09bcedcab941^ceaa0bbcedcab941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-76@2x.png003428d9ddffdf42^1050"CpResource WinWithin/Resources/icons/icon-76@2x.png build/emulator/WinWithin.app/icon-76@2x.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-76@2x.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"DFE88D9A-F01D-4C55-88D3-211A851516E3-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/icons/icon-small.png build/emulator/WinWithin.app/icon-small.png
+s432729531.936429
+e432729531.940037
+r1
+xCpResource
+xWinWithin/Resources/icons/icon-small.png
+xbuild/emulator/WinWithin.app/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/emulator/WinWithin.app/icon-small.png95"CpResource WinWithin/Resources/icons/icon-small.png build/emulator/WinWithin.app/icon-small.png41d6efbbedcab941^2fa7f0bbedcab941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-small.png003428d9ddffdf42^1050"CpResource WinWithin/Resources/icons/icon-small.png build/emulator/WinWithin.app/icon-small.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-small.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"BED57D2C-2336-41F1-A9C6-F22029273D79-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/icons/icon-small@2x.png build/emulator/WinWithin.app/icon-small@2x.png
+s432729531.993662
+e432729531.996204
+r1
+xCpResource
+xWinWithin/Resources/icons/icon-small@2x.png
+xbuild/emulator/WinWithin.app/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/emulator/WinWithin.app/icon-small@2x.png101"CpResource WinWithin/Resources/icons/icon-small@2x.png build/emulator/WinWithin.app/icon-small@2x.pngd882febbedcab941^840dffbbedcab941^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon-small@2x.png003428d9ddffdf42^1059"CpResource WinWithin/Resources/icons/icon-small@2x.png build/emulator/WinWithin.app/icon-small@2x.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon-small@2x.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"EC43934B-9273-4DDB-A07A-43BCCD072B14-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/icons/icon.png build/emulator/WinWithin.app/icon.png
+s432729531.902421
+e432729531.917855
+r1
+xCpResource
+xWinWithin/Resources/icons/icon.png
+xbuild/emulator/WinWithin.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/emulator/WinWithin.app/icon.png83"CpResource WinWithin/Resources/icons/icon.png build/emulator/WinWithin.app/icon.png7923e7bbedcab941^6309ebbbedcab941^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon.png003428d9ddffdf42^1032"CpResource WinWithin/Resources/icons/icon.png build/emulator/WinWithin.app/icon.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"B5B11CA3-3783-4F02-AF72-BE31CA036A17-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/icons/icon@2x.png build/emulator/WinWithin.app/icon@2x.png
+s432729531.918310
+e432729531.929216
+r1
+xCpResource
+xWinWithin/Resources/icons/icon@2x.png
+xbuild/emulator/WinWithin.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy build/emulator/WinWithin.app/icon@2x.png89"CpResource WinWithin/Resources/icons/icon@2x.png build/emulator/WinWithin.app/icon@2x.pnga33cebbbedcab941^745feebbedcab941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/icon@2x.png003428d9ddffdf42^1041"CpResource WinWithin/Resources/icons/icon@2x.png build/emulator/WinWithin.app/icon@2x.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/icons/icon@2x.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"7D823652-187C-472D-B493-1470737B2005-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/splash/Default-568h@2x~iphone.png build/emulator/WinWithin.app/Default-568h@2x~iphone.png
+s432729532.035146
+e432729532.038613
+r1
+xCpResource
+xWinWithin/Resources/splash/Default-568h@2x~iphone.png
+xbuild/emulator/WinWithin.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/emulator/WinWithin.app/Default-568h@2x~iphone.png120"CpResource WinWithin/Resources/splash/Default-568h@2x~iphone.png build/emulator/WinWithin.app/Default-568h@2x~iphone.png261909bcedcab941^00e309bcedcab941^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Default-568h@2x~iphone.png003428d9ddffdf42^1088"CpResource WinWithin/Resources/splash/Default-568h@2x~iphone.png build/emulator/WinWithin.app/Default-568h@2x~iphone.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/splash/Default-568h@2x~iphone.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"AB5A20E2-B0DF-4063-9FD2-E6019E841740-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/WinWithin.app/Default-Landscape@2x~ipad.png
+s432729531.938085
+e432729531.992264
+r1
+xCpResource
+xWinWithin/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/emulator/WinWithin.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/emulator/WinWithin.app/Default-Landscape@2x~ipad.png126"CpResource WinWithin/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/WinWithin.app/Default-Landscape@2x~ipad.pngcc41f0bbedcab941^ab05febbedcab941^---0#0#1#-19%DVTDocumentLocation2@146"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Default-Landscape@2x~ipad.png003428d9ddffdf42^1097"CpResource WinWithin/Resources/splash/Default-Landscape@2x~ipad.png build/emulator/WinWithin.app/Default-Landscape@2x~ipad.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/splash/Default-Landscape@2x~ipad.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"424228B9-1F39-4913-BCDA-1539FE01506E-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/splash/Default-Landscape~ipad.png build/emulator/WinWithin.app/Default-Landscape~ipad.png
+s432729531.941370
+e432729531.996151
+r1
+xCpResource
+xWinWithin/Resources/splash/Default-Landscape~ipad.png
+xbuild/emulator/WinWithin.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/emulator/WinWithin.app/Default-Landscape~ipad.png120"CpResource WinWithin/Resources/splash/Default-Landscape~ipad.png build/emulator/WinWithin.app/Default-Landscape~ipad.pnga532f1bbedcab941^3a03ffbbedcab941^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Default-Landscape~ipad.png003428d9ddffdf42^1088"CpResource WinWithin/Resources/splash/Default-Landscape~ipad.png build/emulator/WinWithin.app/Default-Landscape~ipad.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/splash/Default-Landscape~ipad.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"21915B2B-895C-4E21-B0C0-0677EF576552-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/WinWithin.app/Default-Portrait@2x~ipad.png
+s432729531.992503
+e432729532.014352
+r1
+xCpResource
+xWinWithin/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/emulator/WinWithin.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/emulator/WinWithin.app/Default-Portrait@2x~ipad.png124"CpResource WinWithin/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/WinWithin.app/Default-Portrait@2x~ipad.png323cfebbedcab941^c5ac03bcedcab941^---0#0#1#-19%DVTDocumentLocation2@145"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Default-Portrait@2x~ipad.png003428d9ddffdf42^1094"CpResource WinWithin/Resources/splash/Default-Portrait@2x~ipad.png build/emulator/WinWithin.app/Default-Portrait@2x~ipad.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/splash/Default-Portrait@2x~ipad.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"4F017286-1085-4F39-A56A-8B029B9C137F-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/splash/Default-Portrait~ipad.png build/emulator/WinWithin.app/Default-Portrait~ipad.png
+s432729531.996376
+e432729532.034023
+r1
+xCpResource
+xWinWithin/Resources/splash/Default-Portrait~ipad.png
+xbuild/emulator/WinWithin.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/emulator/WinWithin.app/Default-Portrait~ipad.png118"CpResource WinWithin/Resources/splash/Default-Portrait~ipad.png build/emulator/WinWithin.app/Default-Portrait~ipad.png533fffbbedcab941^e1b808bcedcab941^---0#0#1#-19%DVTDocumentLocation2@142"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Default-Portrait~ipad.png003428d9ddffdf42^1085"CpResource WinWithin/Resources/splash/Default-Portrait~ipad.png build/emulator/WinWithin.app/Default-Portrait~ipad.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/splash/Default-Portrait~ipad.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"9944CD5E-5178-468B-8A32-5B805161755E-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/splash/Default@2x~iphone.png build/emulator/WinWithin.app/Default@2x~iphone.png
+s432729532.014566
+e432729532.034983
+r1
+xCpResource
+xWinWithin/Resources/splash/Default@2x~iphone.png
+xbuild/emulator/WinWithin.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/emulator/WinWithin.app/Default@2x~iphone.png110"CpResource WinWithin/Resources/splash/Default@2x~iphone.png build/emulator/WinWithin.app/Default@2x~iphone.pngb0e703bcedcab941^e8f408bcedcab941^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Default@2x~iphone.png003428d9ddffdf42^1073"CpResource WinWithin/Resources/splash/Default@2x~iphone.png build/emulator/WinWithin.app/Default@2x~iphone.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/splash/Default@2x~iphone.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"72F63715-E481-45FE-9421-B9D43F406077-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CCpResource WinWithin/Resources/splash/Default~iphone.png build/emulator/WinWithin.app/Default~iphone.png
+s432729532.034316
+e432729532.038165
+r1
+xCpResource
+xWinWithin/Resources/splash/Default~iphone.png
+xbuild/emulator/WinWithin.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/emulator/WinWithin.app/Default~iphone.png104"CpResource WinWithin/Resources/splash/Default~iphone.png build/emulator/WinWithin.app/Default~iphone.pngeae808bcedcab941^b5c509bcedcab941^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Default~iphone.png003428d9ddffdf42^1064"CpResource WinWithin/Resources/splash/Default~iphone.png build/emulator/WinWithin.app/Default~iphone.png    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/Resources/splash/Default~iphone.png /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"C825C1D3-A44D-4EB4-A959-AACE5D481A62-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CGenerateDSYMFile /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app.dSYM /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/WinWithin
+s432729552.395279
+e432729552.534731
+r1
+xGenerateDSYMFile
+x/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app.dSYM
+x/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/WinWithin
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Generate /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app.dSYM89"GenerateDSYMFile build/emulator/WinWithin.app.dSYM build/emulator/WinWithin.app/WinWithin664c65d0edcab941^65e488d0edcab941^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app.dSYM003428d9ddffdf42^1038"GenerateDSYMFile build/emulator/WinWithin.app.dSYM build/emulator/WinWithin.app/WinWithin    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/WinWithin -o /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app.dSYM36"4F881B14-A940-4607-B942-6195D032493D-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CLd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/WinWithin normal i386
+s432729550.597572
+e432729552.393972
+r1
+xLd
+x/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/WinWithin
+xnormal
+xi386
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/WinWithin.LinkFileList
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/main.o
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/AppDelegate.o
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libdyld.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Link /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/WinWithin53"Ld build/emulator/WinWithin.app/WinWithin normal i386191c99ceedcab941^cfdb64d0edcab941^---0#0#1#--2270"Ld build/emulator/WinWithin.app/WinWithin normal i386    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator -F/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator -filelist /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/WinWithin.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework AssetsLibrary /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Objects-normal/i386/WinWithin_dependency_info.dat -o /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/WinWithin36"7761E110-0CD8-42A6-BDED-32D8882CC469-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CPhaseScriptExecution Copy\ www\ directory /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Script-304B58A110DAC018002A0835.sh
+s432729531.584378
+e432729531.899588
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.265s
+ouser	0m0.069s
+osys	0m0.124s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'136"PhaseScriptExecution Copy\ www\ directory build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Script-304B58A110DAC018002A0835.sh202596bbedcab941^9d4ae6bbedcab941^-42"real	0m0.265suser	0m0.069ssys	0m0.124s3(21%IDEActivityLogMessage2@14"real	0m0.265s-432729531#1#14#-0#-----2@14"user	0m0.069s-432729531#15#14#-0#-----2@13"sys	0m0.124s-432729531#29#13#-0#-----0#0#1#--416"PhaseScriptExecution Copy\ www\ directory build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Script-304B58A110DAC018002A0835.sh    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    /bin/sh -c /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/Script-304B58A110DAC018002A0835.sh36"882370B4-11C0-44D9-B5D8-2938730B2B72-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CProcessInfoPlistFile /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Info.plist /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/WinWithin-Info.plist
+s432729531.578120
+e432729531.582771
+r1
+xProcessInfoPlistFile
+x/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Info.plist
+x/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/WinWithin-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Process /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/WinWithin-Info.plist91"ProcessInfoPlistFile build/emulator/WinWithin.app/Info.plist WinWithin/WinWithin-Info.plisteb3a94bbedcab941^8c3095bbedcab941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/WinWithin-Info.plist0000000000000000^1159"ProcessInfoPlistFile build/emulator/WinWithin.app/Info.plist WinWithin/WinWithin-Info.plist    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/WinWithin-Info.plist -genpkginfo /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app/Info.plist36"0316A8C9-859B-4180-81B1-FBAE9DC480FF-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CProcessPCH /var/folders/r3/324rxt514qj0727gv98dvnr80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/WinWithin-Prefix-dtdxfhcnjqjezycpvjveimboulfm/WinWithin-Prefix.pch.pch WinWithin/WinWithin-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s432729549.685077
+e432729550.310673
+r1
+xProcessPCH
+x/var/folders/r3/324rxt514qj0727gv98dvnr80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/WinWithin-Prefix-dtdxfhcnjqjezycpvjveimboulfm/WinWithin-Prefix.pch.pch
+xWinWithin/WinWithin-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/WinWithin-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile WinWithin/WinWithin-Prefix.pch296"ProcessPCH /var/folders/r3/324rxt514qj0727gv98dvnr80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/WinWithin-Prefix-dtdxfhcnjqjezycpvjveimboulfm/WinWithin-Prefix.pch.pch WinWithin/WinWithin-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2787afcdedcab941^98884fceedcab941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/WinWithin-Prefix.pch0000000000000000^4461"ProcessPCH /var/folders/r3/324rxt514qj0727gv98dvnr80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/WinWithin-Prefix-dtdxfhcnjqjezycpvjveimboulfm/WinWithin-Prefix.pch.pch WinWithin/WinWithin-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/WinWithin-generated-files.hmap -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/WinWithin-own-target-headers.hmap -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/WinWithin-all-target-headers.hmap -iquote /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/WinWithin-project-headers.hmap -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/include -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/usr/local/lib/include -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/UninstalledProducts/include -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/DerivedSources/i386 -I/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/WinWithin.build/Debug-iphonesimulator/WinWithin.build/DerivedSources -F/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator --serialize-diagnostics /var/folders/r3/324rxt514qj0727gv98dvnr80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/WinWithin-Prefix-dtdxfhcnjqjezycpvjveimboulfm/WinWithin-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/r3/324rxt514qj0727gv98dvnr80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/WinWithin-Prefix-dtdxfhcnjqjezycpvjveimboulfm/WinWithin-Prefix.pch.d -c /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/WinWithin/WinWithin-Prefix.pch -o /var/folders/r3/324rxt514qj0727gv98dvnr80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/WinWithin-Prefix-dtdxfhcnjqjezycpvjveimboulfm/WinWithin-Prefix.pch.pch36"6EC4B1C7-673E-4B2D-85F3-82DA01EE89A2-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
+CTouch /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app
+s432729552.536844
+e432729552.576638
+r1
+xTouch
+x/Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Touch /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app34"Touch build/emulator/WinWithin.app3c8889d0edcab941^ae9e93d0edcab941^---0#0#1#--777"Touch build/emulator/WinWithin.app    cd /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/local/bin:/usr/local/sbin:/Users/antonkjorcklinden/bin/Sencha/Cmd/5.0.1.231:/usr/local/heroku/bin:/Users/antonkjorcklinden/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/antonkjorcklinden/Webbsidor/WinWithin/IOS/WinWithin/cordova/platforms/ios/build/emulator/WinWithin.app36"930D16C9-AAAF-4307-9AC6-A04F22752116-
+bC6601222-CB33-49EC-ACAD-BB3D04975C7C
+
