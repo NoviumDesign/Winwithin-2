@@ -317,6 +317,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
                 name: 'fader',
                 style: {
                     'position': 'absolute',
+                    'z-index' : '9999',
                     'top': '0',
                     'left': '0',
                     'background': 'rgba(0, 0, 0, 0.2)',

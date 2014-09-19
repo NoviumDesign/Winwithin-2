@@ -150,17 +150,9 @@ Ext.define('WinWithin.view.Kapitel3form', {
         
 
         for (var key in this.forslag) {
-            var checker = new Ext.field.Checkbox({
+            var checker = new Ext.Button({
                 id: 'forslagCheck'+key,
-                cls: 'checkGrey no-border',
-                style: {
-                    'width'      : '15%',
-                    'float'      : 'left',
-                    'position'   : 'absolute',
-                    'top'        : '50%',
-                    'right'      : '5px',
-                    'margin-top' : '-21px'
-                },
+                cls: 'checkGrey',
                 handler: function(el, ev) {
                     if(el.up('.x-container').getCls() == 'checkGrey') {
                         for (var c in this.valda) {
@@ -181,7 +173,7 @@ Ext.define('WinWithin.view.Kapitel3form', {
                 cls: 'clearfix borderrr',
                 style: {
                     'position': 'relative',
-                    'background': '#FFF',
+                    'background': '#FFF'
                 },
                 items: [
                     {
@@ -213,11 +205,6 @@ Ext.define('WinWithin.view.Kapitel3form', {
                     name: 'forslagCheck'+key,
                     cls: 'checkGrey',
                     style: {
-                        'position': 'absolute',
-                        'top': '3px',
-                        'right': '3px',
-                        'width': '18px',
-                        'height': '18px',
                         'box-shadow': 'none',
                         '-webkit-box-shadow': 'none'
                     },
@@ -243,11 +230,12 @@ Ext.define('WinWithin.view.Kapitel3form', {
                         {
                             xtype: 'autoHeightTextArea',
                             name: 'forslag'+key,
+                            cls: 'x-field-custom-textarea',
                             style: {
                                 'background': '#FFF'
                             },
                             label: '',
-                            placeHolder: 'Verkliga bevis för att tanken är relevant'
+                            placeHolder: 'Nytt förslag'
                         },
                         checker
                 ]});
@@ -276,6 +264,7 @@ Ext.define('WinWithin.view.Kapitel3form', {
                 name: 'fader',
                 style: {
                     'position': 'absolute',
+                    'z-index' : '9999',
                     'top': '0',
                     'left': '0',
                     'background': 'rgba(0, 0, 0, 0.2)',
