@@ -22,6 +22,18 @@ Ext.define('WinWithin.view.Kapitel2', {
                 scope: this,
                 text: 'Meny',
                 iconMask: true
+            },
+            {
+                xtype: 'button',
+                id: 'playKapital2',
+                docked:'right',
+                style: {
+                    'background': 'none'
+                },
+                handler: this.play,
+                scope: this,
+                html: '<img name="kap2Play" src="resources/images/ic_action_play.png" style="width:48px;" />',
+                iconMask: true
             }
             ]
         };
@@ -158,6 +170,14 @@ Ext.define('WinWithin.view.Kapitel2', {
         };
 
         this.add([topToolbar, bottomToolbar, component]);
+
+        if (Ext.os.is.Android) {
+           Ext.getCmp('bottomToolbar').setHidden(true);
+           Ext.getCmp('playKapital2').setHidden(false);
+        } else {
+          Ext.getCmp('playKapital2').setHidden(false);
+          Ext.getCmp('bottomToolbar').setHidden(true);
+        }
     },
     bevis: function() {
         this.fireEvent('gotoBevis', this);

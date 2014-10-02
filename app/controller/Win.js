@@ -164,19 +164,32 @@ Ext.define("WinWithin.controller.Win", {
         }
     },
     playIntroduktion: function () {
+       
         if(!document.getElementById('multiaudio1').paused) {
             // Playing
             var imgs = document.getElementsByName('introPlay');
             for (var iKey in imgs) {
-                imgs[iKey].src = 'resources/images/play.png';
+                //imgs[iKey].src = 'resources/images/play.png';
+                if (Ext.os.is.Desktop) {
+                  imgs[iKey].src = 'resources/images/ic_action_play.png';
+                }else{
+                     imgs[iKey].src = 'resources/images/play.png';
+                }
             }
             document.getElementById('multiaudio1').pause();
         } else {
             // Not playing
             var imgs = document.getElementsByName('introPlay');
             for (var iKey in imgs) {
-                imgs[iKey].src = 'resources/images/paus.png';
+               // imgs[iKey].src = 'resources/images/paus.png';
+                if (Ext.os.is.Desktop) {
+                  imgs[iKey].src = 'resources/images/ic_action_pause.png';
+                }else{
+                     imgs[iKey].src = 'resources/images/paus.png';
+                } 
             }
+
+
             document.getElementById('multiaudio1').play();
         }
     },
@@ -186,14 +199,24 @@ Ext.define("WinWithin.controller.Win", {
             // Playing
             var imgs = document.getElementsByName('kap1Play');
             for (var iKey in imgs) {
-                imgs[iKey].src = 'resources/images/play.png';
+                //imgs[iKey].src = 'resources/images/play.png';
+                if (Ext.os.is.Desktop) {
+                  imgs[iKey].src = 'resources/images/ic_action_play.png';
+                }else{
+                     imgs[iKey].src = 'resources/images/play.png';
+                }
             }
             document.getElementById('multiaudio2').pause();
         } else {
             // Not playing
             var imgs = document.getElementsByName('kap1Play');
             for (var iKey in imgs) {
-                imgs[iKey].src = 'resources/images/paus.png';
+                //imgs[iKey].src = 'resources/images/paus.png';
+                if (Ext.os.is.Desktop) {
+                  imgs[iKey].src = 'resources/images/ic_action_pause.png';
+                }else{
+                     imgs[iKey].src = 'resources/images/paus.png';
+                } 
             }
             document.getElementById('multiaudio2').play();
         }
@@ -204,14 +227,24 @@ Ext.define("WinWithin.controller.Win", {
             // Playing
             var imgs = document.getElementsByName('kap2Play');
             for (var iKey in imgs) {
-                imgs[iKey].src = 'resources/images/play.png';
+                //imgs[iKey].src = 'resources/images/play.png';
+                if (Ext.os.is.Desktop) {
+                    imgs[iKey].src = 'resources/images/ic_action_play.png';
+                }else{
+                    imgs[iKey].src = 'resources/images/play.png';
+                }
             }
             document.getElementById('multiaudio3').pause();
         } else {
             // Not playing
             var imgs = document.getElementsByName('kap2Play');
             for (var iKey in imgs) {
-                imgs[iKey].src = 'resources/images/paus.png';
+                //imgs[iKey].src = 'resources/images/paus.png';
+                if (Ext.os.is.Desktop) {
+                  imgs[iKey].src = 'resources/images/ic_action_pause.png';
+                }else{
+                     imgs[iKey].src = 'resources/images/paus.png';
+                } 
             }
             document.getElementById('multiaudio3').play();
         }
@@ -222,14 +255,24 @@ Ext.define("WinWithin.controller.Win", {
             // Playing
             var imgs = document.getElementsByName('kap2form1Play');
             for (var iKey in imgs) {
-                imgs[iKey].src = 'resources/images/play.png';
+                //imgs[iKey].src = 'resources/images/play.png';
+                if (Ext.os.is.Desktop) {
+                  imgs[iKey].src = 'resources/images/ic_action_play.png';
+                }else{
+                     imgs[iKey].src = 'resources/images/play.png';
+                }
             }
             document.getElementById('multiaudio6').pause();
         } else {
             // Not playing
             var imgs = document.getElementsByName('kap2form1Play');
             for (var iKey in imgs) {
-                imgs[iKey].src = 'resources/images/paus.png';
+                //imgs[iKey].src = 'resources/images/paus.png';
+                if (Ext.os.is.Desktop) {
+                  imgs[iKey].src = 'resources/images/ic_action_pause.png';
+                }else{
+                     imgs[iKey].src = 'resources/images/paus.png';
+                } 
             }
             document.getElementById('multiaudio6').play();
         }
@@ -240,14 +283,24 @@ Ext.define("WinWithin.controller.Win", {
             // Playing
             var imgs = document.getElementsByName('kap3Play');
             for (var iKey in imgs) {
-                imgs[iKey].src = 'resources/images/play.png';
+                //imgs[iKey].src = 'resources/images/play.png';
+                if (Ext.os.is.Desktop) {
+                  imgs[iKey].src = 'resources/images/ic_action_play.png';
+                }else{
+                     imgs[iKey].src = 'resources/images/play.png';
+                }
             }
             document.getElementById('multiaudio4').pause();
         } else {
             // Not playing
             var imgs = document.getElementsByName('kap3Play');
             for (var iKey in imgs) {
-                imgs[iKey].src = 'resources/images/paus.png';
+                //imgs[iKey].src = 'resources/images/paus.png';
+                if (Ext.os.is.Desktop) {
+                  imgs[iKey].src = 'resources/images/ic_action_pause.png';
+                }else{
+                     imgs[iKey].src = 'resources/images/paus.png';
+                } 
             }
             document.getElementById('multiaudio4').play();
         }
@@ -258,14 +311,24 @@ Ext.define("WinWithin.controller.Win", {
             // Playing
             var imgs = document.getElementsByName('kap3formPlay');
             for (var iKey in imgs) {
-                imgs[iKey].src = 'resources/images/play.png';
+                //imgs[iKey].src = 'resources/images/play.png';
+                if (Ext.os.is.Desktop) {
+                  imgs[iKey].src = 'resources/images/ic_action_play.png';
+                }else{
+                     imgs[iKey].src = 'resources/images/play.png';
+                }
             }
             document.getElementById('multiaudio7').pause();
         } else {
             // Not playing
             var imgs = document.getElementsByName('kap3formPlay');
             for (var iKey in imgs) {
-                imgs[iKey].src = 'resources/images/paus.png';
+                //imgs[iKey].src = 'resources/images/paus.png';
+                if (Ext.os.is.Desktop) {
+                  imgs[iKey].src = 'resources/images/ic_action_pause.png';
+                }else{
+                     imgs[iKey].src = 'resources/images/paus.png';
+                } 
             }
             document.getElementById('multiaudio7').play();
         }
@@ -276,14 +339,24 @@ Ext.define("WinWithin.controller.Win", {
             // Playing
             var imgs = document.getElementsByName('avslPlay');
             for (var iKey in imgs) {
-                imgs[iKey].src = 'resources/images/play.png';
+                //imgs[iKey].src = 'resources/images/play.png';
+                if (Ext.os.is.Desktop) {
+                  imgs[iKey].src = 'resources/images/ic_action_play.png';
+                }else{
+                     imgs[iKey].src = 'resources/images/play.png';
+                }
             }
             document.getElementById('multiaudio5').pause();
         } else {
             // Not playing
             var imgs = document.getElementsByName('avslPlay');
             for (var iKey in imgs) {
-                imgs[iKey].src = 'resources/images/paus.png';
+                //imgs[iKey].src = 'resources/images/paus.png';
+                if (Ext.os.is.Desktop) {
+                  imgs[iKey].src = 'resources/images/ic_action_pause.png';
+                }else{
+                     imgs[iKey].src = 'resources/images/paus.png';
+                } 
             }
             document.getElementById('multiaudio5').play();
         }

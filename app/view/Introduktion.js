@@ -3,6 +3,8 @@ Ext.define('WinWithin.view.Introduktion', {
     alias: 'widget.introduktion',
     initialize: function() {
         this.callParent(arguments);
+        
+        
 
         // Unique for every view...
         var topToolbar = {
@@ -11,17 +13,31 @@ Ext.define('WinWithin.view.Introduktion', {
             title: 'Introduktion',
             style: {
                 'background': '#d9d04c'
-            },
+            },           
             items: [
             {
                 xtype: 'button',
                 ui: 'back',
+
                 style: {
                     'background': 'none'
                 },
                 handler: this.onMenu,
                 scope: this,
+
                 text: 'Meny',
+                iconMask: true
+            },
+            {
+                xtype: 'button',
+                id:'playIntroduktion',
+                docked:'right',
+                style: {
+                    'background': 'none'
+                },
+                handler: this.play,
+                scope: this,
+                html: '<img name="introPlay" src="resources/images/ic_action_play.png" style="width:48px;" />',
                 iconMask: true
             }
             ]
@@ -90,6 +106,16 @@ Ext.define('WinWithin.view.Introduktion', {
         };
 
         this.add([topToolbar,bottomToolbar, component]);
+
+            
+            if (Ext.os.is.Android) {
+               Ext.getCmp('bottomToolbar').setHidden(true);
+               Ext.getCmp('playIntroduktion').setHidden(false);
+            } else {
+              Ext.getCmp('playIntroduktion').setHidden(false);
+              Ext.getCmp('bottomToolbar').setHidden(true);
+            } 
+        
     },
 
     onMenu: function () {

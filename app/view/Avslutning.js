@@ -22,6 +22,18 @@ Ext.define('WinWithin.view.Avslutning', {
                 scope: this,
                 text: 'Meny',
                 iconMask: true
+            },
+             {
+                xtype: 'button',
+                id: 'playAvslutning',
+                docked:'right',
+                style: {
+                    'background': 'none'
+                },
+                handler: this.play,
+                scope: this,
+                html: '<img name="avslPlay" src="resources/images/ic_action_play.png" style="width:48px;" />',
+                iconMask: true
             }
             ]
         };
@@ -88,6 +100,14 @@ Ext.define('WinWithin.view.Avslutning', {
         };
 
         this.add([topToolbar, bottomToolbar, component]);
+
+        if (Ext.os.is.Android) {
+           Ext.getCmp('bottomToolbar').setHidden(true);
+           Ext.getCmp('playAvslutning').setHidden(false);
+        } else {
+          Ext.getCmp('playAvslutning').setHidden(false);
+          Ext.getCmp('bottomToolbar').setHidden(true);
+        }
     },
 
     onMenu: function () {

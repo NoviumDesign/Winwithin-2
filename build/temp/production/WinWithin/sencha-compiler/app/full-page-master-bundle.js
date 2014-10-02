@@ -1,2 +1,2 @@
 // @tag full-page
-// @require /Users/antonkjorcklinden/Webbsidor/Antonfix-winwithin/app.js
+// @require /opt/lampp/htdocs/Winwithin-2-master/app.js
