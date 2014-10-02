@@ -1,65 +1,20 @@
-2014-09-19 17:59:11.468 WinWithin[8994:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-19 17:59:11.502 WinWithin[8994:70b] Unlimited access to network resources
-2014-09-19 17:59:11.507 WinWithin[8994:70b] 
+2014-09-22 12:26:37.901 WinWithin[42869:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-22 12:26:38.045 WinWithin[42869:70b] Unlimited access to network resources
+2014-09-22 12:26:38.054 WinWithin[42869:70b] 
 
 Started backup to iCloud! Please be careful.
 Your application might rejected by Apple if you store too much data.
 For more information please read "iOS Data Storage Guidelines"
 You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
 
-2014-09-19 17:59:12.935 WinWithin[8994:70b] Resetting plugins due to page load.
-2014-09-19 17:59:14.029 WinWithin[8994:70b] setting movie path: 
-2014-09-19 17:59:14.043 WinWithin[8994:70b] setting movie path: 
-2014-09-19 17:59:14.052 WinWithin[8994:70b] setting movie path: 
-2014-09-19 17:59:14.062 WinWithin[8994:70b] setting movie path: 
-2014-09-19 17:59:14.073 WinWithin[8994:70b] setting movie path: 
-2014-09-19 17:59:14.081 WinWithin[8994:70b] setting movie path: 
-2014-09-19 17:59:14.092 WinWithin[8994:70b] setting movie path: 
-2014-09-19 17:59:14.100 WinWithin[8994:70b] setting movie path: 
-2014-09-19 17:59:14.319 WinWithin[8994:70b] Finished load of: file:///Users/aplite/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/947FCC5E-2F81-4DC4-92DE-75B8962A6F60/WinWithin.app/www/index.html
-2014-09-19 18:42:50.122 WinWithin[10708:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-19 18:42:50.232 WinWithin[10708:70b] Unlimited access to network resources
-2014-09-19 18:42:50.321 WinWithin[10708:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines"
-You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
-
-2014-09-19 18:42:53.009 WinWithin[10708:70b] Resetting plugins due to page load.
-2014-09-19 18:42:54.320 WinWithin[10708:70b] setting movie path: 
-2014-09-19 18:42:54.458 WinWithin[10708:70b] setting movie path: 
-2014-09-19 18:42:54.468 WinWithin[10708:70b] setting movie path: 
-2014-09-19 18:42:54.478 WinWithin[10708:70b] setting movie path: 
-2014-09-19 18:42:54.487 WinWithin[10708:70b] setting movie path: 
-2014-09-19 18:42:54.499 WinWithin[10708:70b] setting movie path: 
-2014-09-19 18:42:54.509 WinWithin[10708:70b] setting movie path: 
-2014-09-19 18:42:54.519 WinWithin[10708:70b] setting movie path: 
-2014-09-19 18:42:54.524 WinWithin[10708:70b] Finished load of: file:///Users/aplite/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/947FCC5E-2F81-4DC4-92DE-75B8962A6F60/WinWithin.app/www/index.html
-Sep 19 18:48:28 ApliteInfo31.local WinWithin[10708] <Error>: CGImageCreate: invalid image size: 0 x 0.
-Sep 19 18:48:28 ApliteInfo31.local WinWithin[10708] <Error>: CGImageCreate: invalid image size: 0 x 0.
-Sep 19 18:48:28 ApliteInfo31.local WinWithin[10708] <Error>: CGImageCreate: invalid image size: 0 x 0.
-Sep 19 18:48:28 ApliteInfo31.local WinWithin[10708] <Error>: CGImageCreate: invalid image size: 0 x 0.
-Sep 19 18:48:28 ApliteInfo31.local WinWithin[10708] <Error>: CGImageCreate: invalid image size: 0 x 0.
-Sep 19 18:48:28 ApliteInfo31.local WinWithin[10708] <Error>: CGImageCreate: invalid image size: 0 x 0.
-Sep 19 18:48:28 ApliteInfo31.local WinWithin[10708] <Error>: CGImageCreate: invalid image size: 0 x 0.
-Sep 19 18:48:28 ApliteInfo31.local WinWithin[10708] <Error>: CGImageCreate: invalid image size: 0 x 0.
-2014-09-19 18:58:11.527 WinWithin[11609:70b] Multi-tasking -> Device: YES, App: YES
-2014-09-19 18:58:11.728 WinWithin[11609:70b] Unlimited access to network resources
-2014-09-19 18:58:11.769 WinWithin[11609:70b] 
-
-Started backup to iCloud! Please be careful.
-Your application might rejected by Apple if you store too much data.
-For more information please read "iOS Data Storage Guidelines"
-You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
-
-2014-09-19 18:58:14.263 WinWithin[11609:70b] Resetting plugins due to page load.
-2014-09-19 18:58:15.896 WinWithin[11609:70b] setting movie path: 
-2014-09-19 18:58:15.910 WinWithin[11609:70b] setting movie path: 
-2014-09-19 18:58:15.920 WinWithin[11609:70b] setting movie path: 
-2014-09-19 18:58:15.928 WinWithin[11609:70b] setting movie path: 
-2014-09-19 18:58:15.939 WinWithin[11609:70b] setting movie path: 
-2014-09-19 18:58:15.947 WinWithin[11609:70b] setting movie path: 
-2014-09-19 18:58:15.957 WinWithin[11609:70b] setting movie path: 
-2014-09-19 18:58:15.966 WinWithin[11609:70b] setting movie path: 
-2014-09-19 18:58:16.175 WinWithin[11609:70b] Finished load of: file:///Users/aplite/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/947FCC5E-2F81-4DC4-92DE-75B8962A6F60/WinWithin.app/www/index.html
+2014-09-22 12:26:39.860 WinWithin[42869:70b] Resetting plugins due to page load.
+2014-09-22 12:26:40.632 WinWithin[42869:70b] setting movie path: 
+2014-09-22 12:26:40.672 WinWithin[42869:70b] setting movie path: 
+2014-09-22 12:26:40.687 WinWithin[42869:70b] setting movie path: 
+2014-09-22 12:26:40.706 WinWithin[42869:70b] setting movie path: 
+2014-09-22 12:26:40.724 WinWithin[42869:70b] setting movie path: 
+2014-09-22 12:26:40.740 WinWithin[42869:70b] setting movie path: 
+2014-09-22 12:26:40.759 WinWithin[42869:70b] setting movie path: 
+2014-09-22 12:26:40.777 WinWithin[42869:70b] setting movie path: 
+2014-09-22 12:26:40.787 WinWithin[42869:70b] Finished load of: file:///Users/antonkjorcklinden/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E147C4B2-F2C7-44C6-AAA4-5E8149EB7AB4/WinWithin.app/www/index.html
+Terminating in response to SpringBoard's termination.

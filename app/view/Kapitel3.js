@@ -49,6 +49,7 @@ Ext.define('WinWithin.view.Kapitel3', {
 
         var component = {
             xtype: 'panel',
+            cls: 'chapter-container',
             padding: 10,
             items: [
             {

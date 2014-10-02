@@ -84,14 +84,12 @@ Ext.define('WinWithin.view.Kapitel1form', {
             // Form
             {
                 xtype: 'container',
+                cls: 'form-container',
                 layout : {
                     type: 'vbox',
                     align: 'stretch'
                 },
                 padding: 0,
-                style: {
-                    'background': '#FFF'
-                },
                 items: [
                     {
                         xtype: 'component',
@@ -103,15 +101,11 @@ Ext.define('WinWithin.view.Kapitel1form', {
                         html: 'Negativa tankar och känslor'
                     },
                     { xtype: "fieldset",
-                        style: {
-                            'background': '#FFF'
-                        },
+                        cls: 'form-input',
                         items: [noteTitleEditor]
                     },
                     { xtype: 'fieldset',
-                        style: {
-                            'background': '#FFF'
-                        },
+                        cls: 'form-input',
                         layout : {
                             type: 'vbox',
                             align: 'stretch'
@@ -119,9 +113,7 @@ Ext.define('WinWithin.view.Kapitel1form', {
                         items: [negativTanke]
                     },
                     { xtype: 'fieldset',
-                        style: {
-                            'background': '#FFF'
-                        },
+                        cls: 'form-input',
                         items: [obehaglig]
                     }
                 ]

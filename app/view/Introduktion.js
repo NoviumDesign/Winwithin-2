@@ -48,6 +48,7 @@ Ext.define('WinWithin.view.Introduktion', {
         };
         var component = {
             xtype: 'panel',
+            cls: 'chapter-container',
             padding: 10,
             items: [
             {

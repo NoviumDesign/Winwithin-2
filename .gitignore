@@ -1,3 +1,8 @@
 **/.sass-cache
 **/.sass-cache/*
 resources/css/app.css
+build/*
+cordova_old/*
+cordova/
+cordova/*
+build/temp

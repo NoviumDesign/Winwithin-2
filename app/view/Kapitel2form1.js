@@ -55,8 +55,8 @@ Ext.define('WinWithin.view.Kapitel2form1', {
             xtype: 'panel',
             style: {
                 'background': '#FFF',
-                'padding': '10px',
-                'font-weight': 'bold'
+                'font-weight': 'bold',
+                'padding': '10px'
             },
             // margin: '10 0',
             html: 'Relevant eller grundlös tanke'
@@ -64,10 +64,7 @@ Ext.define('WinWithin.view.Kapitel2form1', {
         this.add([
             {
                 xtype: 'panel',
-                padding: 0,
-                style: {
-                    'background': '#e5e5e5'
-                },
+                cls: 'form-container',
                 items: [
                     headlinePanel
                 ]
@@ -97,9 +94,8 @@ Ext.define('WinWithin.view.Kapitel2form1', {
                 xtype: 'button',
                 id: 'relevant'+key,
                 style: {
-                    'width': '46%',
+                    'width': '50%',
                     'float': 'left',
-                    'margin-right': '2%'
                 },
                 handler: function(el, ev) {
                     var keyButton = parseInt(el.id.replace('relevant', ''), 10);
@@ -149,10 +145,8 @@ Ext.define('WinWithin.view.Kapitel2form1', {
                 // Form
                 {
                     xtype: 'panel',
+                    cls: 'form-container',
                     padding: 0,
-                    style: {
-                        'background': '#FFF'
-                    },
                     items: [
                         { xtype: "fieldset",
                             style: {

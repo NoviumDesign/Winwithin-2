@@ -4478,3 +4478,80 @@ body {
   -moz-box-shadow: inset 0 -5px 0 0 #4abce7;
   box-shadow: inset 0 -5px 0 0 #4abce7;
 }
+
+.btn-add {
+  background: white;
+  border: 0 none;
+}
+.btn-add .x-button-label, .btn-add .x-badge {
+  color: black;
+}
+
+body {
+  color: black;
+}
+
+h1 {
+  font-size: 1.2em;
+  line-height: 1.3em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 0.6em;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.x-menu {
+  padding: 0;
+}
+.x-menu .x-button {
+  border-radius: 0;
+  border: 0;
+}
+.x-menu .x-button span {
+  color: white;
+}
+
+.x-form-inner textarea, .x-form-inner input {
+  background-color: white;
+  color: black;
+  -webkit-text-fill-color: black !important;
+}
+
+.form-container {
+  padding: 10px 10px 0px 10px;
+  background-color: #eaeaea;
+}
+
+.chapter-container {
+  padding: 10px;
+  background-color: #eaeaea;
+}
+.chapter-container .x-panel-inner {
+  padding: 10px;
+  background-color: white;
+}
+
+.form-input {
+  margin-top: 10px;
+  background-color: white;
+}
+
+.x-scroll-view {
+  background-color: #eaeaea;
+}
+
+.x-component-outer:before, .x-component-outer:after {
+  display: none;
+}
+
+.buttonGreen {
+  background-color: #27ae60;
+}

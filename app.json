@@ -61,11 +61,11 @@
         {
             "path": "lib/touch/sencha-touch.js",
 			"remote": true
-		},
+		},/*
         {
             "path": "cordova.js",
             "remote": true
-        },
+        },*/
         {
             "path": "bootstrap.js",
             "x-bootstrap": true
