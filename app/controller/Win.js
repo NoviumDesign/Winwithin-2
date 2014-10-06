@@ -618,17 +618,18 @@ Ext.define("WinWithin.controller.Win", {
             }
             notesStore.sync();
         }
+        var utmaningar = this.getUtmaningar();
+                utmaningar.refresh('Negtank');
         switch(kapitel1form.backEvent) {
             case 'backToKapitel1': 
                 this.backToKapitel1(); 
                 break;
             case 'backToNyUtm':
-                var nyutmaning = this.getNyutmaning();
-                Ext.Viewport.animateActiveItem(nyutmaning, { type: 'slide', direction: 'right' });
+               
+                Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
             case 'backToUtmaningar': 
-                var utmaningar = this.getUtmaningar();
-                utmaningar.refresh('Negtank');
+               
                 Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
         }
@@ -641,18 +642,18 @@ Ext.define("WinWithin.controller.Win", {
         var notesStore = Ext.getStore("Negtank");
         notesStore.remove(currentNote);
         notesStore.sync();
-
+        var utmaningar = this.getUtmaningar();
+                utmaningar.refresh('Negtank');
         switch(kapitel1form.backEvent) {
             case 'backToKapitel1': 
                 this.backToKapitel1(); 
                 break;
             case 'backToNyUtm':
-                var nyutmaning = this.getNyutmaning();
-                Ext.Viewport.animateActiveItem(nyutmaning, { type: 'slide', direction: 'right' });
+               
+                Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
             case 'backToUtmaningar': 
-                var utmaningar = this.getUtmaningar();
-                utmaningar.refresh('Negtank');
+                
                 Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
         }
@@ -762,18 +763,18 @@ Ext.define("WinWithin.controller.Win", {
             }
             notesStore.sync();
         }
-        
+         var utmaningar = this.getUtmaningar();
+                utmaningar.refresh('Bevis');
         switch(kapitel2form2.backEvent) {
             case 'backToKapitel2': 
                 this.backToKapitel2(); 
                 break;
             case 'backToNyUtm':
-                var nyutmaning = this.getNyutmaning();
-                Ext.Viewport.animateActiveItem(nyutmaning, { type: 'slide', direction: 'right' });
+                
+                Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
             case 'backToUtmaningar': 
-                var utmaningar = this.getUtmaningar();
-                utmaningar.refresh('Bevis');
+                
                 Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
         }
@@ -785,18 +786,18 @@ Ext.define("WinWithin.controller.Win", {
         var notesStore = Ext.getStore("Bevis");
         notesStore.remove(currentNote);
         notesStore.sync();
-
+        var utmaningar = this.getUtmaningar();
+                utmaningar.refresh('Bevis');
         switch(kapitel2form2.backEvent) {
             case 'backToKapitel2': 
                 this.backToKapitel2(); 
                 break;
             case 'backToNyUtm':
-                var nyutmaning = this.getNyutmaning();
-                Ext.Viewport.animateActiveItem(nyutmaning, { type: 'slide', direction: 'right' });
+                 
+                Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
             case 'backToUtmaningar': 
-                var utmaningar = this.getUtmaningar();
-                utmaningar.refresh('Bevis');
+                
                 Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
         }
@@ -871,17 +872,18 @@ Ext.define("WinWithin.controller.Win", {
             }
             notesStore.sync();
         }
+        var utmaningar = this.getUtmaningar();
+                utmaningar.refresh('Relevant');
         switch(kapitel2form1.backEvent) {
             case 'backToKapitel2': 
                 this.backToKapitel2(); 
                 break;
             case 'backToNyUtm':
-                var nyutmaning = this.getNyutmaning();
-                Ext.Viewport.animateActiveItem(nyutmaning, { type: 'slide', direction: 'right' });
+                
+                Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
             case 'backToUtmaningar': 
-                var utmaningar = this.getUtmaningar();
-                utmaningar.refresh('Relevant');
+                
                 Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
         }
@@ -893,18 +895,18 @@ Ext.define("WinWithin.controller.Win", {
         var notesStore = Ext.getStore("Relevant");
         notesStore.remove(currentNote);
         notesStore.sync();
-        
+        var utmaningar = this.getUtmaningar();
+        utmaningar.refresh('Relevant');
         switch(kapitel2form1.backEvent) {
             case 'backToKapitel2': 
                 this.backToKapitel2(); 
                 break;
             case 'backToNyUtm':
-                var nyutmaning = this.getNyutmaning();
-                Ext.Viewport.animateActiveItem(nyutmaning, { type: 'slide', direction: 'right' });
+                
+                Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
             case 'backToUtmaningar': 
-                var utmaningar = this.getUtmaningar();
-                utmaningar.refresh('Relevant');
+                
                 Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
         }
@@ -998,18 +1000,18 @@ Ext.define("WinWithin.controller.Win", {
             }
             notesStore.sync();
         }
-        
+        var utmaningar = this.getUtmaningar();
+                utmaningar.refresh('Problem');
         switch(kapitel3form.backEvent) {
             case 'backToKapitel3': 
                 this.backToKapitel3();
                 break;
             case 'backToNyUtm':
-                var nyutmaning = this.getNyutmaning();
-                Ext.Viewport.animateActiveItem(nyutmaning, { type: 'slide', direction: 'right' });
+               
+                Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
             case 'backToUtmaningar': 
-                var utmaningar = this.getUtmaningar();
-                utmaningar.refresh('Problem');
+                
                 Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
         }
@@ -1022,17 +1024,16 @@ Ext.define("WinWithin.controller.Win", {
         var notesStore = Ext.getStore('Problem');
         notesStore.remove(currentNote);
         notesStore.sync();
+        var utmaningar = this.getUtmaningar();
+        utmaningar.refresh('Problem');
         switch(kapitel3form.backEvent) {
             case 'backToKapitel3': 
                 this.backToKapitel3(); 
                 break;
             case 'backToNyUtm':
-                var nyutmaning = this.getNyutmaning();
-                Ext.Viewport.animateActiveItem(nyutmaning, { type: 'slide', direction: 'right' });
+                Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
             case 'backToUtmaningar': 
-                var utmaningar = this.getUtmaningar();
-                utmaningar.refresh('Problem');
                 Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
         }
