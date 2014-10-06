@@ -32,7 +32,7 @@ Ext.define('WinWithin.view.Avslutning', {
                 },
                 handler: this.play,
                 scope: this,
-                html: '<img name="avslPlay" src="resources/images/ic_action_play.png" style="width:48px;" />',
+                html: '<img name="avslPlay" src="resources/images/ic_action_play.png" style="width:36px;" />',
                 iconMask: true
             }
             ]
@@ -105,8 +105,8 @@ Ext.define('WinWithin.view.Avslutning', {
            Ext.getCmp('bottomToolbar').setHidden(true);
            Ext.getCmp('playAvslutning').setHidden(false);
         } else {
-          Ext.getCmp('playAvslutning').setHidden(false);
-          Ext.getCmp('bottomToolbar').setHidden(true);
+          Ext.getCmp('playAvslutning').setHidden(true);
+          Ext.getCmp('bottomToolbar').setHidden(false);
         }
     },
 

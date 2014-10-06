@@ -20,9 +20,20 @@ Ext.define('WinWithin.view.Nyutmaning', {
                 },
                 handler: this.onMenu,
                 scope: this,
-                text: 'Utmaningar',
+                text: 'Meny',
                 iconMask: true
             }
+            /*{
+                xtype: 'button',
+                ui: 'back',
+                style: {
+                    'background': 'none'
+                },
+                handler: this.onMenu,
+                scope: this,
+                text: 'Utmaningar',
+                iconMask: true
+            }*/
             ]
         };
         
@@ -76,7 +87,8 @@ Ext.define('WinWithin.view.Nyutmaning', {
     //     this.fireEvent('gotoNewChallange', this, record);
     // },
     onMenu: function () {
-        this.fireEvent("backToUtmaningar", this);
+        /*this.fireEvent("backToUtmaningar", this);*/
+        this.fireEvent("menuToggle", this);
     },
     config: {
         fullscreen: true,

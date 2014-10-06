@@ -49,9 +49,10 @@ Ext.define("WinWithin.controller.Win", {
                 play: 'playAvslutning'
             },
             utmaningar: {
-                menuToggle: 'menuToggle',
+                /*menuToggle: 'menuToggle',*/
                 gotoEdit: 'gotoEdit',
-                newChallange: 'newChallange'
+                newChallange: 'newChallange',
+                backToUtmaningar: 'backToUtmaningar'
             },
             kapitel1form: {
                 back: 'backToKapitel1',
@@ -74,8 +75,9 @@ Ext.define("WinWithin.controller.Win", {
                 play: 'playChallenge3'
             },
             nyutmaning: {
+                menuToggle: 'menuToggle',
                 gotoNewChallange: 'gotoNewChallange',
-                backToUtmaningar: 'backToUtmaningar'
+                /*backToUtmaningar: 'backToUtmaningar'*/
             }
 
 
@@ -86,6 +88,7 @@ Ext.define("WinWithin.controller.Win", {
     },
 
     menuToggle: function () {
+       
         Ext.Viewport.toggleMenu('left');
     },
     stopAllPlay: function() {
@@ -170,7 +173,7 @@ Ext.define("WinWithin.controller.Win", {
             var imgs = document.getElementsByName('introPlay');
             for (var iKey in imgs) {
                 //imgs[iKey].src = 'resources/images/play.png';
-                if (Ext.os.is.Desktop) {
+                if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_play.png';
                 }else{
                      imgs[iKey].src = 'resources/images/play.png';
@@ -182,7 +185,7 @@ Ext.define("WinWithin.controller.Win", {
             var imgs = document.getElementsByName('introPlay');
             for (var iKey in imgs) {
                // imgs[iKey].src = 'resources/images/paus.png';
-                if (Ext.os.is.Desktop) {
+                if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_pause.png';
                 }else{
                      imgs[iKey].src = 'resources/images/paus.png';
@@ -200,7 +203,7 @@ Ext.define("WinWithin.controller.Win", {
             var imgs = document.getElementsByName('kap1Play');
             for (var iKey in imgs) {
                 //imgs[iKey].src = 'resources/images/play.png';
-                if (Ext.os.is.Desktop) {
+                if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_play.png';
                 }else{
                      imgs[iKey].src = 'resources/images/play.png';
@@ -212,7 +215,7 @@ Ext.define("WinWithin.controller.Win", {
             var imgs = document.getElementsByName('kap1Play');
             for (var iKey in imgs) {
                 //imgs[iKey].src = 'resources/images/paus.png';
-                if (Ext.os.is.Desktop) {
+                if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_pause.png';
                 }else{
                      imgs[iKey].src = 'resources/images/paus.png';
@@ -228,7 +231,7 @@ Ext.define("WinWithin.controller.Win", {
             var imgs = document.getElementsByName('kap2Play');
             for (var iKey in imgs) {
                 //imgs[iKey].src = 'resources/images/play.png';
-                if (Ext.os.is.Desktop) {
+                if (Ext.os.is.Android) {
                     imgs[iKey].src = 'resources/images/ic_action_play.png';
                 }else{
                     imgs[iKey].src = 'resources/images/play.png';
@@ -240,7 +243,7 @@ Ext.define("WinWithin.controller.Win", {
             var imgs = document.getElementsByName('kap2Play');
             for (var iKey in imgs) {
                 //imgs[iKey].src = 'resources/images/paus.png';
-                if (Ext.os.is.Desktop) {
+                if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_pause.png';
                 }else{
                      imgs[iKey].src = 'resources/images/paus.png';
@@ -256,7 +259,7 @@ Ext.define("WinWithin.controller.Win", {
             var imgs = document.getElementsByName('kap2form1Play');
             for (var iKey in imgs) {
                 //imgs[iKey].src = 'resources/images/play.png';
-                if (Ext.os.is.Desktop) {
+                if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_play.png';
                 }else{
                      imgs[iKey].src = 'resources/images/play.png';
@@ -268,7 +271,7 @@ Ext.define("WinWithin.controller.Win", {
             var imgs = document.getElementsByName('kap2form1Play');
             for (var iKey in imgs) {
                 //imgs[iKey].src = 'resources/images/paus.png';
-                if (Ext.os.is.Desktop) {
+                if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_pause.png';
                 }else{
                      imgs[iKey].src = 'resources/images/paus.png';
@@ -284,7 +287,7 @@ Ext.define("WinWithin.controller.Win", {
             var imgs = document.getElementsByName('kap3Play');
             for (var iKey in imgs) {
                 //imgs[iKey].src = 'resources/images/play.png';
-                if (Ext.os.is.Desktop) {
+                if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_play.png';
                 }else{
                      imgs[iKey].src = 'resources/images/play.png';
@@ -296,7 +299,7 @@ Ext.define("WinWithin.controller.Win", {
             var imgs = document.getElementsByName('kap3Play');
             for (var iKey in imgs) {
                 //imgs[iKey].src = 'resources/images/paus.png';
-                if (Ext.os.is.Desktop) {
+                if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_pause.png';
                 }else{
                      imgs[iKey].src = 'resources/images/paus.png';
@@ -312,7 +315,7 @@ Ext.define("WinWithin.controller.Win", {
             var imgs = document.getElementsByName('kap3formPlay');
             for (var iKey in imgs) {
                 //imgs[iKey].src = 'resources/images/play.png';
-                if (Ext.os.is.Desktop) {
+                if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_play.png';
                 }else{
                      imgs[iKey].src = 'resources/images/play.png';
@@ -324,7 +327,7 @@ Ext.define("WinWithin.controller.Win", {
             var imgs = document.getElementsByName('kap3formPlay');
             for (var iKey in imgs) {
                 //imgs[iKey].src = 'resources/images/paus.png';
-                if (Ext.os.is.Desktop) {
+                if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_pause.png';
                 }else{
                      imgs[iKey].src = 'resources/images/paus.png';
@@ -340,7 +343,7 @@ Ext.define("WinWithin.controller.Win", {
             var imgs = document.getElementsByName('avslPlay');
             for (var iKey in imgs) {
                 //imgs[iKey].src = 'resources/images/play.png';
-                if (Ext.os.is.Desktop) {
+                if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_play.png';
                 }else{
                      imgs[iKey].src = 'resources/images/play.png';
@@ -352,7 +355,7 @@ Ext.define("WinWithin.controller.Win", {
             var imgs = document.getElementsByName('avslPlay');
             for (var iKey in imgs) {
                 //imgs[iKey].src = 'resources/images/paus.png';
-                if (Ext.os.is.Desktop) {
+                if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_pause.png';
                 }else{
                      imgs[iKey].src = 'resources/images/paus.png';
@@ -377,6 +380,7 @@ Ext.define("WinWithin.controller.Win", {
         Ext.Viewport.setActiveItem(this.getIntroduktion());
     },
     gotoEdit: function() {
+       
         if (arguments[1] && arguments[1].hasOwnProperty('data')) {
             var record = arguments[1].data.record;
             switch(arguments[1].data.action) {
@@ -403,33 +407,56 @@ Ext.define("WinWithin.controller.Win", {
             }
         } 
     },
-    newChallange: function() {
-        var nyutmaning = this.getNyutmaning();
-        Ext.Viewport.animateActiveItem(nyutmaning, { type: 'slide', direction: 'left' });
+    newChallange: function(record) {
+        //krishna
+        /*var nyutmaning = this.getNyutmaning();
+        Ext.Viewport.animateActiveItem(nyutmaning, { type: 'slide', direction: 'left' });*/
+       
+        this.stopAllPlay.call(this);
+
+        var kapitel1form = this.getKapitel1form();
+            
+        if (!record.hasOwnProperty('internalId')) {
+            var now = new Date();
+            var noteId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString();
+
+            var record = Ext.create("WinWithin.model.Negtank", {
+                id: noteId,
+                dateCreated: now,
+                namnge: '',
+                negativtanke: '',
+                obehaglig: ''
+            });
+        }
+        kapitel1form.setRecord(record);
+        kapitel1form.updateWithForm();
+        Ext.Viewport.animateActiveItem(kapitel1form, {type:'slide', direction:'left'});
     },
     gotoNewChallange: function() {
+       
         if (arguments[1] && arguments[1].hasOwnProperty('data')) {
             var chall = arguments[1].data.namnge;
+
             switch(chall) {
                 case 'Negativa tankar och känslor':
                     var kapitel1form = this.getKapitel1form();
                     kapitel1form.backEvent = 'backToNyUtm';
-                    this.gotoNegTank({});
+                    this.gotoNegTank({},'Negtank');
                     break;
-                case 'Bevis för eller emot':
+                case 'Bevis för och emot':
                     var kapitel2form2 = this.getKapitel2form2();
                     kapitel2form2.backEvent = 'backToNyUtm';
-                    this.gotoBevis({});
+                    this.gotoBevis({},'Bevis');
                     break;
                 case 'Relevant eller grundlös tanke':
                     var kapitel2form1 = this.getKapitel2form1();
                     kapitel2form1.backEvent = 'backToNyUtm';
-                    this.gotoRelevant({}); 
+                    this.gotoRelevant({},'Relevant'); 
                     break;
                 case 'Problemlösning':
                     var kapitel3form = this.getKapitel3form();
                     kapitel3form.backEvent = 'backToNyUtm';
-                    this.gotoProblem({});
+                    this.gotoProblem({},'Problem');
                     break;
             }
 
@@ -456,8 +483,10 @@ Ext.define("WinWithin.controller.Win", {
         // load data?
         Ext.Viewport.animateActiveItem(kapitel1, { type: 'slide', direction: 'left' });
     },
-    gotoNegTank: function(record) {
-        this.stopAllPlay.call(this);
+    gotoNegTank: function(record,storeName) {
+       
+       
+        /*this.stopAllPlay.call(this);
 
         var kapitel1form = this.getKapitel1form();
             
@@ -476,7 +505,33 @@ Ext.define("WinWithin.controller.Win", {
         }
         kapitel1form.setRecord(record);
         kapitel1form.updateWithForm();
-        Ext.Viewport.animateActiveItem(kapitel1form, {type:'slide', direction:'left'});
+        Ext.Viewport.animateActiveItem(kapitel1form, {type:'slide', direction:'left'});*/
+        if(record.data){
+            this.stopAllPlay.call(this);
+
+            var kapitel1form = this.getKapitel1form();
+            
+            if (!record.hasOwnProperty('internalId')) {
+                // There is no record
+                var now = new Date();
+                var noteId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString();
+
+                var record = Ext.create("WinWithin.model.Negtank", {
+                    id: noteId,
+                    dateCreated: now,
+                    namnge: '',
+                    negativtanke: '',
+                    obehaglig: ''
+                });
+            }
+            kapitel1form.setRecord(record);
+            kapitel1form.updateWithForm();
+            Ext.Viewport.animateActiveItem(kapitel1form, {type:'slide', direction:'left'});
+        }else{
+            var utmaningar = this.getUtmaningar();
+            utmaningar.refresh(storeName);
+            Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'left' });
+        }
     },
     saveNegtankCommand: function() {
         var kapitel1form = this.getKapitel1form();
@@ -550,8 +605,8 @@ Ext.define("WinWithin.controller.Win", {
         kapitel2form2.backEvent = 'backToKapitel2';
         Ext.Viewport.animateActiveItem(kapitel2, { type: 'slide', direction: 'left' });
     },
-    gotoBevis: function(record) {
-        this.stopAllPlay.call(this);
+    gotoBevis: function(record,storeName) {
+        /*this.stopAllPlay.call(this);
 
         var kapitel2form2 = this.getKapitel2form2();
         
@@ -571,7 +626,35 @@ Ext.define("WinWithin.controller.Win", {
         }
         kapitel2form2.setRecord(record);
         kapitel2form2.updateWithForm();
-        Ext.Viewport.animateActiveItem(kapitel2form2, {type:'slide', direction:'left'});
+        Ext.Viewport.animateActiveItem(kapitel2form2, {type:'slide', direction:'left'});*/
+
+        if(record.data){
+            this.stopAllPlay.call(this);
+
+            var kapitel2form2 = this.getKapitel2form2();
+            
+            if (!record.hasOwnProperty('internalId')) {
+                var now = new Date();
+                var noteId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString();
+
+                var record = Ext.create("WinWithin.model.Bevis", {
+                    id: noteId,
+                    dateCreated: now,
+                    namnge: '',
+                    negTanke: '',
+                    relBevis: [],
+                    grundBevis: [],
+                    relElGrund: undefined
+                });
+            }
+            kapitel2form2.setRecord(record);
+            kapitel2form2.updateWithForm();
+            Ext.Viewport.animateActiveItem(kapitel2form2, {type:'slide', direction:'left'});
+        }else{
+            var utmaningar = this.getUtmaningar();
+            utmaningar.refresh(storeName);
+            Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'left' });
+        }
     },
     saveBevis: function() {
         var kapitel2form2 = this.getKapitel2form2();
@@ -643,8 +726,8 @@ Ext.define("WinWithin.controller.Win", {
                 break;
         }
     },
-    gotoRelevant: function(record) {
-        this.stopAllPlay.call(this);
+    gotoRelevant: function(record,storeName) {
+        /*this.stopAllPlay.call(this);
         var kapitel2form1 = this.getKapitel2form1();
 
         if (!record.hasOwnProperty('internalId')) {
@@ -664,7 +747,35 @@ Ext.define("WinWithin.controller.Win", {
         
         kapitel2form1.setRecord(record);
         kapitel2form1.updateWithForm();
-        Ext.Viewport.animateActiveItem(kapitel2form1, {type:'slide', direction:'left'});
+        Ext.Viewport.animateActiveItem(kapitel2form1, {type:'slide', direction:'left'});*/
+
+        if(record.data){
+            this.stopAllPlay.call(this);
+            var kapitel2form1 = this.getKapitel2form1();
+
+            if (!record.hasOwnProperty('internalId')) {
+                var now = new Date();
+                var noteId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString();
+
+                var record = Ext.create("WinWithin.model.Relevant", {
+                    id: noteId,
+                    dateCreated: now,
+                    fields: [{
+                        namnge: '',
+                        negTanke: '',
+                        relElGrund: undefined
+                    }]
+                });
+            }
+            
+            kapitel2form1.setRecord(record);
+            kapitel2form1.updateWithForm();
+            Ext.Viewport.animateActiveItem(kapitel2form1, {type:'slide', direction:'left'});
+        }else{
+            var utmaningar = this.getUtmaningar();
+            utmaningar.refresh(storeName);
+            Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'left' });
+        }
     },
     saveRelElGrund: function() {
         var kapitel2form1 = this.getKapitel2form1();
@@ -738,8 +849,8 @@ Ext.define("WinWithin.controller.Win", {
         kapitel3form.backEvent = 'backToKapitel3';
         Ext.Viewport.animateActiveItem(kapitel3, { type: 'slide', direction: 'left' });
     },
-    gotoProblem: function(record) {
-        this.stopAllPlay.call(this);
+    gotoProblem: function(record,storeName) {
+        /*this.stopAllPlay.call(this);
         var kapitel3form = this.getKapitel3form();
 
         if (!record.hasOwnProperty('internalId')) {
@@ -757,7 +868,33 @@ Ext.define("WinWithin.controller.Win", {
         
         kapitel3form.setRecord(record);
         kapitel3form.updateWithForm();
-        Ext.Viewport.animateActiveItem(kapitel3form, {type:'slide', direction:'left'});
+        Ext.Viewport.animateActiveItem(kapitel3form, {type:'slide', direction:'left'});*/
+
+        if(record.data){
+            this.stopAllPlay.call(this);
+            var kapitel3form = this.getKapitel3form();
+
+            if (!record.hasOwnProperty('internalId')) {
+                var now = new Date();
+                var noteId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString();
+
+                var record = Ext.create("WinWithin.model.Problem", {
+                    id: noteId,
+                    dateCreated: now,
+                    beskriv: '',
+                    forslag: [],
+                    vald: undefined
+                });
+            }
+            
+            kapitel3form.setRecord(record);
+            kapitel3form.updateWithForm();
+            Ext.Viewport.animateActiveItem(kapitel3form, {type:'slide', direction:'left'});
+        }else{
+            var utmaningar = this.getUtmaningar();
+            utmaningar.refresh(storeName);
+            Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'left' });
+        }
     },
     saveProblem: function() {
         var kapitel3form = this.getKapitel3form();
@@ -833,7 +970,9 @@ Ext.define("WinWithin.controller.Win", {
         Ext.Viewport.animateActiveItem(avslutning, { type: 'slide', direction: 'left' });
     },
     gotoUtmaningar: function() {
-        this.stopAllPlay.call(this);
+       
+
+        /*this.stopAllPlay.call(this);
         
         var listData = [];
         Ext.getStore('Negtank').load();
@@ -859,16 +998,28 @@ Ext.define("WinWithin.controller.Win", {
         } else {
             var nyutmaning = this.getNyutmaning();
             Ext.Viewport.animateActiveItem(nyutmaning, { type: 'slide', direction: 'left' });
-        }
+        }*/
+
+        this.stopAllPlay.call(this);
+        var nyutmaning = this.getNyutmaning();
+        Ext.Viewport.animateActiveItem(nyutmaning, { type: 'slide', direction: 'left' });
+        
         
     },
     backToUtmaningar: function() {
-        this.stopAllPlay.call(this);
+       
+        /*this.stopAllPlay.call(this);
         var utmaningar = this.getUtmaningar();
         utmaningar.refresh();
-        Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
+        Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });*/
+
+        this.stopAllPlay.call(this);
+        var nyutmaning = this.getNyutmaning();
+        nyutmaning.refresh();
+        Ext.Viewport.animateActiveItem(nyutmaning, { type: 'slide', direction: 'right' });
     },
     doSetHidden: function(hidden) {
+
         this.callParent(arguments);
         if (hidden) {
             Ext.Viewport.removeMenu('left');
@@ -882,6 +1033,7 @@ Ext.define("WinWithin.controller.Win", {
      * @return {Ext.Menu}      Menu instance
      */
     menuForSide: function(side) {
+       
         var items = [
         {
             text:'Introduktion',
@@ -967,6 +1119,7 @@ Ext.define("WinWithin.controller.Win", {
         return Ext.create(className, {items: items});
     },
     launch: function () {
+       
         this.callParent();
         //Ext.getStore("Negtank").load();
 
@@ -974,6 +1127,7 @@ Ext.define("WinWithin.controller.Win", {
     },
 
     init: function () {
+       
         this.callParent();
         Ext.Viewport.setMenu(this.menuForSide('left'), { side: 'left', reveal: true });
         this.playToggle = false;

@@ -37,7 +37,7 @@ Ext.define('WinWithin.view.Introduktion', {
                 },
                 handler: this.play,
                 scope: this,
-                html: '<img name="introPlay" src="resources/images/ic_action_play.png" style="width:48px;" />',
+                html: '<img name="introPlay" src="resources/images/ic_action_play.png" style="width:36px;" />',
                 iconMask: true
             }
             ]
@@ -107,13 +107,13 @@ Ext.define('WinWithin.view.Introduktion', {
 
         this.add([topToolbar,bottomToolbar, component]);
 
-            
+           
             if (Ext.os.is.Android) {
                Ext.getCmp('bottomToolbar').setHidden(true);
                Ext.getCmp('playIntroduktion').setHidden(false);
             } else {
-              Ext.getCmp('playIntroduktion').setHidden(false);
-              Ext.getCmp('bottomToolbar').setHidden(true);
+              Ext.getCmp('playIntroduktion').setHidden(true);
+              Ext.getCmp('bottomToolbar').setHidden(false);
             } 
         
     },

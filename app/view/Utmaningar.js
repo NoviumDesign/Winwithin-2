@@ -12,7 +12,7 @@ Ext.define('WinWithin.view.Utmaningar', {
                 'background': '#794849'
             },
             items: [
-            {
+            /*{
                 xtype: 'button',
                 ui: 'back',
                 style: {
@@ -21,6 +21,16 @@ Ext.define('WinWithin.view.Utmaningar', {
                 handler: this.onMenu,
                 scope: this,
                 text: 'Meny',
+                iconMask: true
+            }*/{
+                xtype: 'button',
+                ui: 'back',
+                style: {
+                    'background': 'none'
+                },
+                handler: this.onMenu,
+                scope: this,
+                text: 'Utmaningar',
                 iconMask: true
             },{
                 xtype: 'spacer'
@@ -43,44 +53,53 @@ Ext.define('WinWithin.view.Utmaningar', {
         this.refresh();
         
     },
-    refresh: function() {
+    refresh: function(storeName) {
+       
         this.removeAll();
         
         var listData = [];
+        if(storeName=='Negtank'){
+            Ext.getStore('Negtank').load();
+            Ext.getStore('Negtank').each(function(rec) {
+                listData.push({namnge: rec.get('namnge'), model: 'Negtank', clss:'negtankList', record: rec, action: 'gotoNegTank'});
+            });
+        }
         
-        Ext.getStore('Negtank').load();
-        Ext.getStore('Negtank').each(function(rec) {
-            listData.push({namnge: rec.get('namnge'), model: 'Negtank', clss:'negtankList', record: rec, action: 'gotoNegTank'});
-        });
+        if(storeName=='Relevant'){
+            Ext.getStore('Relevant').load();
+            Ext.getStore('Relevant').each(function(rec) {
+                var fields = rec.get('fields');
+                var title = fields[0].namnge;
+                if (fields[0].relElGrund == 'relevant') {
+                    title += ' (Relevant)';
+                }
+                if (fields[0].relElGrund == 'grundlos') {
+                    title += ' (Grundlös)';
+                }
+                listData.push({namnge: title, model: 'Relevant', clss:'bevisList', record: rec, action: 'gotoRelevant'});
+            });
+        }
+        if(storeName=='Bevis'){
+            Ext.getStore('Bevis').load();
+            Ext.getStore('Bevis').each(function(rec) {
+                var title = rec.get('namnge');
+                if (rec.get('relElGrund') == 'relevant') {
+                    title += ' (Relevant)';
+                }
+                if (rec.get('relElGrund') == 'grundlos') {
+                    title += ' (Grundlös)';
+                }
+                listData.push({namnge: title, model: 'Bevis', clss:'bevisList', record: rec, action: 'gotoBevis'});
+            });
+        }
+        if(storeName=='Problem'){
+            Ext.getStore('Problem').load();
+            Ext.getStore('Problem').each(function(rec) {
+                listData.push({namnge: rec.get('beskriv'), model: 'Problem', clss:'problemList', record: rec, action: 'gotoProblem'});
+            });    
+        }
         
-        Ext.getStore('Relevant').load();
-        Ext.getStore('Relevant').each(function(rec) {
-            var fields = rec.get('fields');
-            var title = fields[0].namnge;
-            if (fields[0].relElGrund == 'relevant') {
-                title += ' (Relevant)';
-            }
-            if (fields[0].relElGrund == 'grundlos') {
-                title += ' (Grundlös)';
-            }
-            listData.push({namnge: title, model: 'Relevant', clss:'bevisList', record: rec, action: 'gotoRelevant'});
-        });
-        Ext.getStore('Bevis').load();
-        Ext.getStore('Bevis').each(function(rec) {
-            var title = rec.get('namnge');
-            if (rec.get('relElGrund') == 'relevant') {
-                title += ' (Relevant)';
-            }
-            if (rec.get('relElGrund') == 'grundlos') {
-                title += ' (Grundlös)';
-            }
-            listData.push({namnge: title, model: 'Bevis', clss:'bevisList', record: rec, action: 'gotoBevis'});
-        });
         
-        Ext.getStore('Problem').load();
-        Ext.getStore('Problem').each(function(rec) {
-            listData.push({namnge: rec.get('beskriv'), model: 'Problem', clss:'problemList', record: rec, action: 'gotoProblem'});
-        });
         
         if (listData.length > 0) {
 
@@ -122,7 +141,8 @@ Ext.define('WinWithin.view.Utmaningar', {
         // evt.stopPropagation();
     },
     onMenu: function () {
-        this.fireEvent("menuToggle", this);
+        /*this.fireEvent("menuToggle", this);*/
+        this.fireEvent("backToUtmaningar", this);
     },
     onNew: function(){
         this.fireEvent('newChallange', this);

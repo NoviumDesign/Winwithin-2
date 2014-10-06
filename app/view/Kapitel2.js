@@ -32,7 +32,7 @@ Ext.define('WinWithin.view.Kapitel2', {
                 },
                 handler: this.play,
                 scope: this,
-                html: '<img name="kap2Play" src="resources/images/ic_action_play.png" style="width:48px;" />',
+                html: '<img name="kap2Play" src="resources/images/ic_action_play.png" style="width:36px;" />',
                 iconMask: true
             }
             ]
@@ -175,8 +175,8 @@ Ext.define('WinWithin.view.Kapitel2', {
            Ext.getCmp('bottomToolbar').setHidden(true);
            Ext.getCmp('playKapital2').setHidden(false);
         } else {
-          Ext.getCmp('playKapital2').setHidden(false);
-          Ext.getCmp('bottomToolbar').setHidden(true);
+          Ext.getCmp('playKapital2').setHidden(true);
+          Ext.getCmp('bottomToolbar').setHidden(false);
         }
     },
     bevis: function() {
