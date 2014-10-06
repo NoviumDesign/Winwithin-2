@@ -4465,6 +4465,14 @@ body {
   color: black;
 }
 
+.form-add-button {
+  margin: 0px 10px;
+}
+
+.form-button-group {
+  margin: 10px;
+}
+
 body {
   color: black;
 }
@@ -4486,6 +4494,76 @@ strong {
   font-weight: bold;
 }
 
+.x-form-inner textarea, .x-form-inner input {
+  background-color: white;
+  color: black;
+  -webkit-text-fill-color: black !important;
+}
+
+.headlinePanel {
+  background: white;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.form-container {
+  padding: 10px 10px 0px 10px;
+  background-color: #eaeaea;
+}
+.form-container .x-list-item, .form-container .x-list-item-first, .form-container .x-list-item-last {
+  background-color: white;
+  color: black;
+}
+.form-container .x-list-item .x-innerhtml, .form-container .x-list-item-first .x-innerhtml, .form-container .x-list-item-last .x-innerhtml {
+  padding: 12px 10px !important;
+}
+.form-container .x-list-item-first {
+  border-top: none !important;
+}
+.form-container .x-list-item-last {
+  border-bottom: none !important;
+}
+.form-container .x-list-disclosure {
+  background-image: url("../images/arrow-right-black.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 9px 15px !important;
+  background-position: right center !important;
+  background-color: transparent !important;
+  padding-left: 15px;
+}
+.form-container .x-list-disclosure:before {
+  display: none;
+}
+
+.form-input {
+  margin-top: 10px;
+  background-color: white;
+}
+
+.x-scroll-view {
+  background-color: #eaeaea;
+}
+
+.x-component-outer:before, .x-component-outer:after {
+  display: none;
+}
+
+.buttonGreen {
+  background-color: #27ae60;
+}
+
+.checkGreen {
+  background-image: url("../images/check.png");
+  background-size: 18px 18px;
+  border: 0;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  margin-top: -9px;
+  height: 18px;
+  width: 18px;
+}
+
 .x-menu {
   padding: 0;
 }
@@ -4495,17 +4573,6 @@ strong {
 }
 .x-menu .x-button span {
   color: white;
-}
-
-.x-form-inner textarea, .x-form-inner input {
-  background-color: white;
-  color: black;
-  -webkit-text-fill-color: black !important;
-}
-
-.form-container {
-  padding: 10px 10px 0px 10px;
-  background-color: #eaeaea;
 }
 
 .chapter-container {
@@ -4532,4 +4599,47 @@ strong {
 
 .buttonGreen {
   background-color: #27ae60;
+}
+
+.checkGrey {
+  background-image: url("../images/checkGrey.png");
+  background-size: 18px 18px;
+  border: 0;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  margin-top: -9px;
+  height: 18px;
+  width: 18px;
+}
+
+.checkGreen {
+  background-image: url("../images/check.png");
+  background-size: 18px 18px;
+  border: 0;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  margin-top: -9px;
+  height: 18px;
+  width: 18px;
+}
+
+.x-button-back {
+  background-image: url("../images/arrow-left.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 9px 15px !important;
+  background-position: left center !important;
+  color: #157efb;
+  font-size: 1.3em;
+  text-align: center;
+  background-color: none;
+  line-height: 1.3em;
+  padding-left: 15px;
+}
+
+.x-button.x-button-back .x-button-label, .x-button.x-button-back .x-badge,
+.x-button.x-button-back:before {
+  color: white;
+  font-size: 1em;
 }

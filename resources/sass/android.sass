@@ -3,6 +3,7 @@
 @import 'stylesheets/android/lib/variables'
 @import 'stylesheets/android/lib/buttons'
 @import 'stylesheets/android/lib/typography'
+@import 'stylesheets/android/lib/forms'
 
 .x-menu
   padding: 0
@@ -12,16 +13,6 @@
     border: 0
     span
       color: $base-button-color
-
-.x-form-inner 
-  textarea, input
-    background-color: #FFF
-    color: #000000
-    -webkit-text-fill-color: #000000 !important
-
-.form-container
-  padding: 10px 10px 0px 10px
-  background-color: #EAEAEA
 
 .chapter-container
   padding: 10px
@@ -43,3 +34,42 @@
 
 .buttonGreen
   background-color: #27ae60
+
+.checkGrey
+  background-image: url('../images/checkGrey.png')
+  background-size: 18px 18px
+  border: 0
+  position: absolute
+  top: 50%
+  right: 5px
+  margin-top: -9px
+  height: 18px
+  width: 18px
+
+.checkGreen
+  background-image: url('../images/check.png')
+  background-size: 18px 18px
+  border: 0
+  position: absolute
+  top: 50%
+  right: 5px
+  margin-top: -9px
+  height: 18px
+  width: 18px
+
+.x-button-back
+  background-image: url('../images/arrow-left.png') !important
+  background-repeat: no-repeat !important
+  background-size: 9px 15px !important
+  background-position: left center !important
+  color: #157EFB
+  font-size: 1.3em
+  text-align: center
+  background-color: none
+  line-height: 1.3em
+  padding-left: 15px
+
+.x-button.x-button-back .x-button-label,
+.x-button.x-button-back:before
+  color: #ffffff
+  font-size: 1em

@@ -73,7 +73,7 @@ Ext.define('WinWithin.view.Kapitel3form', {
         
         var headlinePanel = {
             xtype: 'panel',
-            cls: 'headline-panel',
+            cls: 'headline-panel headlinePanel',
             html: 'Problemlösning'
         };
         
@@ -90,6 +90,7 @@ Ext.define('WinWithin.view.Kapitel3form', {
             {
                 xtype: 'panel',
                 // padding: '0 12',
+                cls: 'form-container',
                 style: {
                     'background': '#e5e5e5'
                 },
@@ -103,6 +104,7 @@ Ext.define('WinWithin.view.Kapitel3form', {
             {
                 xtype: 'panel',
                 // padding: '0 12',
+                cls: 'form-container',
                 style: {
                     'background': '#e5e5e5'
                 },
@@ -119,6 +121,7 @@ Ext.define('WinWithin.view.Kapitel3form', {
         this.add([
             {
                 xtype: 'panel',
+                cls: 'form-container',
                 // padding: '0 12',
                 style: {
                     'background': '#e5e5e5'
@@ -127,7 +130,7 @@ Ext.define('WinWithin.view.Kapitel3form', {
                     { xtype: 'component',
                         style: {
                             'background': '#FFF',
-                            'padding': '5px'
+                            'padding': '10px'
                         },
                         html: '<span style="font-weight:bold;">Förslag till problemlösning</span><br/>Markera det du väljer att genomföra'
                     }
@@ -140,6 +143,7 @@ Ext.define('WinWithin.view.Kapitel3form', {
         this.forslag.push('');
         var forslagPanel = new Ext.Panel({
             // padding: 12,
+            cls: 'form-container',
             style: {
                 'background': '#e5e5e5'
             },
@@ -173,7 +177,6 @@ Ext.define('WinWithin.view.Kapitel3form', {
                 cls: 'clearfix borderrr',
                 style: {
                     'position': 'relative',
-                    'background': '#FFF'
                 },
                 items: [
                     {
@@ -196,7 +199,7 @@ Ext.define('WinWithin.view.Kapitel3form', {
 
         this.add({
             xtype: 'button',
-            cls: 'btn-add',
+            cls: 'btn-add form-add-button',
             html: '+ Lägg till',
             handler: function(){
                 key = this.forslag.push('') -1;
@@ -281,8 +284,7 @@ Ext.define('WinWithin.view.Kapitel3form', {
                 hidden: true,
                 style: {
                     'width': '100%',
-                    'height': '100px',
-                    'background': '#FFF',
+                    'background': 'rgba(255, 255, 255, 0.75)',
                     'padding': '12px'
                 },
                 items: [

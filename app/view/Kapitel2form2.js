@@ -101,9 +101,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
             {
                 xtype: 'panel',
                 padding: 0,
-                style: {
-                    'background': '#e5e5e5'
-                },
+                cls: 'form-container',
                 items: [
                     headlinePanel
                 ]
@@ -114,9 +112,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
             {
                 xtype: 'panel',
                 padding: 0,
-                style: {
-                    'background': '#e5e5e5'
-                },
+                cls: 'form-container',
                 items: [
                     { xtype: "fieldset",
                         style: {
@@ -140,6 +136,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
         this.relBevis.push('');
         var bevisPanel = new Ext.Panel({
             padding: 0,
+            cls: 'form-container',
             style: {
                 'background': '#e5e5e5'
             },
@@ -163,6 +160,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
 
         this.add({
             xtype: 'button',
+            cls: 'form-add-button',
             style: {
                 'background': '#FFF',
                 'color': '#000',
@@ -188,6 +186,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
         this.grundBevis.push('');
         var grundPanel = new Ext.Panel({
             padding: 0,
+            cls: 'form-container',
             style: {
                 'background': '#e5e5e5'
             },
@@ -210,6 +209,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
         this.add(grundPanel);
         this.add({
             xtype: 'button',
+            cls: 'form-add-button',
             style: {
                 'background': '#FFF',
                 'color': '#000',
@@ -279,6 +279,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
             {
                 xtype: 'panel',
                 padding: 0,
+                cls: 'form-button-group',
                 style: {
                     'background': '#e5e5e5'
                 },
@@ -334,8 +335,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
                 hidden: true,
                 style: {
                     'width': '100%',
-                    'height': '100px',
-                    'background': '#FFF',
+                    'background': 'rgba(255, 255, 255, 0.75)',
                     'padding': '12px'
                 },
                 items: [

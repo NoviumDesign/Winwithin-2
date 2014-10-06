@@ -212,8 +212,7 @@ Ext.define('WinWithin.view.Kapitel2form1', {
                 hidden: true,
                 style: {
                     'width': '100%',
-                    'height': '100px',
-                    'background': '#FFF',
+                    'background': 'rgba(255, 255, 255, 0.75)',
                     'padding': '12px'
                 },
                 items: [

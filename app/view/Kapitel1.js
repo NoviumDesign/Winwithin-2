@@ -15,6 +15,7 @@ Ext.define('WinWithin.view.Kapitel1', {
             {
                 xtype: 'button',
                 ui: 'back',
+                cls: 'back-button',
                 style: {
                     'background': 'none'
                 },
