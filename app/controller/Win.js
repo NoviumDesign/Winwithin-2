@@ -600,6 +600,7 @@ Ext.define("WinWithin.controller.Win", {
             var utmaningar = this.getUtmaningar();
             utmaningar.refresh(storeName);
             utmaningar.getItems().items[0].setStyle('background-color:#7baf9a;');
+            utmaningar.getItems().items[0].setTitle('Negativa tankar och känslor');
             Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'left' });
         }
     },
@@ -727,6 +728,7 @@ Ext.define("WinWithin.controller.Win", {
             var utmaningar = this.getUtmaningar();
             utmaningar.refresh(storeName);
             utmaningar.getItems().items[0].setStyle('background-color:#495b6a;');
+            utmaningar.getItems().items[0].setTitle('Bevis för och emot');
             Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'left' });
         }
     },
@@ -851,6 +853,7 @@ Ext.define("WinWithin.controller.Win", {
             var utmaningar = this.getUtmaningar();
             utmaningar.refresh(storeName);
             utmaningar.getItems().items[0].setStyle('background-color:#495b6a;');
+            utmaningar.getItems().items[0].setTitle('Relevant eller grundlös tanke');
             Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'left' });
         }
     },
@@ -973,6 +976,7 @@ Ext.define("WinWithin.controller.Win", {
             var utmaningar = this.getUtmaningar();
             utmaningar.refresh(storeName);
             utmaningar.getItems().items[0].setStyle('background-color:#905f79;');
+            utmaningar.getItems().items[0].setTitle('Problemlösning');
             Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'left' });
         }
     },
