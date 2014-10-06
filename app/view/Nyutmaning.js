@@ -22,6 +22,10 @@ Ext.define('WinWithin.view.Nyutmaning', {
                 scope: this,
                 text: 'Meny',
                 iconMask: true
+            },{
+                xtype:'hiddenfield',
+                value:'',
+                id:'selectCategory'
             }
             /*{
                 xtype: 'button',

@@ -88,7 +88,7 @@ Ext.define("WinWithin.controller.Win", {
     },
 
     menuToggle: function () {
-       
+      
         Ext.Viewport.toggleMenu('left');
     },
     stopAllPlay: function() {
@@ -413,30 +413,100 @@ Ext.define("WinWithin.controller.Win", {
         Ext.Viewport.animateActiveItem(nyutmaning, { type: 'slide', direction: 'left' });*/
        
         this.stopAllPlay.call(this);
+        var getcategory=Ext.getCmp('selectCategory').getValue();
 
-        var kapitel1form = this.getKapitel1form();
-            
-        if (!record.hasOwnProperty('internalId')) {
-            var now = new Date();
-            var noteId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString();
+        switch(getcategory) {
+            case 'Negativa tankar och känslor': 
+                    var kapitel1form = this.getKapitel1form();
+                    if (!record.hasOwnProperty('internalId')) {
+                        var now = new Date();
+                        var noteId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString();
 
-            var record = Ext.create("WinWithin.model.Negtank", {
-                id: noteId,
-                dateCreated: now,
-                namnge: '',
-                negativtanke: '',
-                obehaglig: ''
-            });
+                        var record = Ext.create("WinWithin.model.Negtank", {
+                            id: noteId,
+                            dateCreated: now,
+                            namnge: '',
+                            negativtanke: '',
+                            obehaglig: ''
+                        });
+                    }
+                    kapitel1form.setRecord(record);
+                    kapitel1form.updateWithForm();
+                    Ext.Viewport.animateActiveItem(kapitel1form, {type:'slide', direction:'left'});
+                break;
+            case 'Bevis för och emot':
+                    var kapitel2form2 = this.getKapitel2form2();
+        
+                    if (!record.hasOwnProperty('internalId')) {
+                        var now = new Date();
+                        var noteId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString();
+
+                        var record = Ext.create("WinWithin.model.Bevis", {
+                            id: noteId,
+                            dateCreated: now,
+                            namnge: '',
+                            negTanke: '',
+                            relBevis: [],
+                            grundBevis: [],
+                            relElGrund: undefined
+                        });
+                    }
+                    kapitel2form2.setRecord(record);
+                    kapitel2form2.updateWithForm();
+                    Ext.Viewport.animateActiveItem(kapitel2form2, {type:'slide', direction:'left'});
+                break;
+            case 'Relevant eller grundlös tanke':
+                    var kapitel2form1 = this.getKapitel2form1();
+
+                    if (!record.hasOwnProperty('internalId')) {
+                        var now = new Date();
+                        var noteId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString();
+
+                        var record = Ext.create("WinWithin.model.Relevant", {
+                            id: noteId,
+                            dateCreated: now,
+                            fields: [{
+                                namnge: '',
+                                negTanke: '',
+                                relElGrund: undefined
+                            }]
+                        });
+                    }
+                    
+                    kapitel2form1.setRecord(record);
+                    kapitel2form1.updateWithForm();
+                    Ext.Viewport.animateActiveItem(kapitel2form1, {type:'slide', direction:'left'});
+                break;
+            case 'Problemlösning':
+                    var kapitel3form = this.getKapitel3form();
+
+                    if (!record.hasOwnProperty('internalId')) {
+                        var now = new Date();
+                        var noteId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString();
+
+                        var record = Ext.create("WinWithin.model.Problem", {
+                            id: noteId,
+                            dateCreated: now,
+                            beskriv: '',
+                            forslag: [],
+                            vald: undefined
+                        });
+                    }
+                    
+                    kapitel3form.setRecord(record);
+                    kapitel3form.updateWithForm();
+                    Ext.Viewport.animateActiveItem(kapitel3form, {type:'slide', direction:'left'});
+                break;
         }
-        kapitel1form.setRecord(record);
-        kapitel1form.updateWithForm();
-        Ext.Viewport.animateActiveItem(kapitel1form, {type:'slide', direction:'left'});
+
+
+        
     },
     gotoNewChallange: function() {
        
         if (arguments[1] && arguments[1].hasOwnProperty('data')) {
-            var chall = arguments[1].data.namnge;
-
+            var chall = arguments[1].data.namnge; 
+            Ext.getCmp('selectCategory').setValue(chall);          
             switch(chall) {
                 case 'Negativa tankar och känslor':
                     var kapitel1form = this.getKapitel1form();
@@ -459,7 +529,6 @@ Ext.define("WinWithin.controller.Win", {
                     this.gotoProblem({},'Problem');
                     break;
             }
-
         }
     },
     gotoIntroduktion: function() {
@@ -485,7 +554,7 @@ Ext.define("WinWithin.controller.Win", {
     },
     gotoNegTank: function(record,storeName) {
        
-       
+        
         /*this.stopAllPlay.call(this);
 
         var kapitel1form = this.getKapitel1form();
@@ -530,10 +599,12 @@ Ext.define("WinWithin.controller.Win", {
         }else{
             var utmaningar = this.getUtmaningar();
             utmaningar.refresh(storeName);
+            utmaningar.getItems().items[0].setStyle('background-color:#7baf9a;');
             Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'left' });
         }
     },
     saveNegtankCommand: function() {
+       
         var kapitel1form = this.getKapitel1form();
         var currentNote = kapitel1form.getRecord();
         var newValues = kapitel1form.getValues();
@@ -557,13 +628,14 @@ Ext.define("WinWithin.controller.Win", {
                 break;
             case 'backToUtmaningar': 
                 var utmaningar = this.getUtmaningar();
-                utmaningar.refresh();
+                utmaningar.refresh('Negtank');
                 Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
         }
         
     },
     deleteNegtankCommand: function() {
+       
         var kapitel1form = this.getKapitel1form();
         var currentNote = kapitel1form.getRecord();
         var notesStore = Ext.getStore("Negtank");
@@ -580,7 +652,7 @@ Ext.define("WinWithin.controller.Win", {
                 break;
             case 'backToUtmaningar': 
                 var utmaningar = this.getUtmaningar();
-                utmaningar.refresh();
+                utmaningar.refresh('Negtank');
                 Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
         }
@@ -653,10 +725,12 @@ Ext.define("WinWithin.controller.Win", {
         }else{
             var utmaningar = this.getUtmaningar();
             utmaningar.refresh(storeName);
+            utmaningar.getItems().items[0].setStyle('background-color:#495b6a;');
             Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'left' });
         }
     },
     saveBevis: function() {
+       
         var kapitel2form2 = this.getKapitel2form2();
         var currentNote = kapitel2form2.getRecord();
         var newValues = kapitel2form2.getValues();
@@ -699,12 +773,13 @@ Ext.define("WinWithin.controller.Win", {
                 break;
             case 'backToUtmaningar': 
                 var utmaningar = this.getUtmaningar();
-                utmaningar.refresh();
+                utmaningar.refresh('Bevis');
                 Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
         }
     },
     deleteBevis: function() {
+      
         var kapitel2form2 = this.getKapitel2form2();
         var currentNote = kapitel2form2.getRecord();
         var notesStore = Ext.getStore("Bevis");
@@ -721,7 +796,7 @@ Ext.define("WinWithin.controller.Win", {
                 break;
             case 'backToUtmaningar': 
                 var utmaningar = this.getUtmaningar();
-                utmaningar.refresh();
+                utmaningar.refresh('Bevis');
                 Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
         }
@@ -774,6 +849,7 @@ Ext.define("WinWithin.controller.Win", {
         }else{
             var utmaningar = this.getUtmaningar();
             utmaningar.refresh(storeName);
+            utmaningar.getItems().items[0].setStyle('background-color:#495b6a;');
             Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'left' });
         }
     },
@@ -805,12 +881,13 @@ Ext.define("WinWithin.controller.Win", {
                 break;
             case 'backToUtmaningar': 
                 var utmaningar = this.getUtmaningar();
-                utmaningar.refresh();
+                utmaningar.refresh('Relevant');
                 Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
         }
     },
     deleteRelevantCommand: function() {
+       
         var kapitel2form1 = this.getKapitel2form1();
         var currentNote = kapitel2form1.getRecord();
         var notesStore = Ext.getStore("Relevant");
@@ -827,7 +904,7 @@ Ext.define("WinWithin.controller.Win", {
                 break;
             case 'backToUtmaningar': 
                 var utmaningar = this.getUtmaningar();
-                utmaningar.refresh();
+                utmaningar.refresh('Relevant');
                 Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
         }
@@ -893,6 +970,7 @@ Ext.define("WinWithin.controller.Win", {
         }else{
             var utmaningar = this.getUtmaningar();
             utmaningar.refresh(storeName);
+            utmaningar.getItems().items[0].setStyle('background-color:#905f79;');
             Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'left' });
         }
     },
@@ -931,13 +1009,14 @@ Ext.define("WinWithin.controller.Win", {
                 break;
             case 'backToUtmaningar': 
                 var utmaningar = this.getUtmaningar();
-                utmaningar.refresh();
+                utmaningar.refresh('Problem');
                 Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
         }
         
     },
     deleteProblemCommand: function() {
+        
         var kapitel3form = this.getKapitel3form();
         var currentNote = kapitel3form.getRecord();
         var notesStore = Ext.getStore('Problem');
@@ -953,7 +1032,7 @@ Ext.define("WinWithin.controller.Win", {
                 break;
             case 'backToUtmaningar': 
                 var utmaningar = this.getUtmaningar();
-                utmaningar.refresh();
+                utmaningar.refresh('Problem');
                 Ext.Viewport.animateActiveItem(utmaningar, { type: 'slide', direction: 'right' });
                 break;
         }
@@ -1007,7 +1086,7 @@ Ext.define("WinWithin.controller.Win", {
         
     },
     backToUtmaningar: function() {
-       
+        
         /*this.stopAllPlay.call(this);
         var utmaningar = this.getUtmaningar();
         utmaningar.refresh();
