@@ -50,10 +50,10 @@ Ext.define('WinWithin.view.Nyutmaning', {
         this.removeAll();
         
         var listData = [
-            { namnge: 'Negativa tankar och känslor', clss:'negtankList'},
-            { namnge: 'Bevis för och emot', clss:'bevisList'},
-            { namnge: 'Relevant eller grundlös tanke', clss:'bevisList'},
-            { namnge: 'Problemlösning', clss:'problemList' }
+            { namnge: 'Negativa tankar och känslor', clss:'negtankList',bglistColor:'#7baf9a;'},
+            { namnge: 'Bevis för och emot', clss:'bevisList',bglistColor:'#495b6a;'},
+            { namnge: 'Relevant eller grundlös tanke', clss:'bevisList',bglistColor:'#495b6a;'},
+            { namnge: 'Problemlösning', clss:'problemList',bglistColor:'#905f79;' }
         ];
         
         

@@ -5,7 +5,8 @@ Ext.define("WinWithin.view.Utmaningarlist", {
         loadingText: "Laddar utmaningar...",
         emptyText: '</pre><div class="notes-list-empty-text">Inga utmaningar skapade ännu</div><pre>',
         onItemDisclosure: true,
-        itemTpl: new Ext.XTemplate('<div class="{clss}">', '<span style="display: inline-block;">{namnge}</span>','</div>')
+        cls:'UtmaningarlistCls',
+        itemTpl: new Ext.XTemplate('<div class="{clss}" style="background:{bglistColor}; padding: 12px 15px;margin-bottom: 1px;">', '<span style="display: inline-block;">{namnge}</span>','</div>')
         // '</pre><div class="list-item-title {clss}">{namnge}</div><pre>',
     }
 });
