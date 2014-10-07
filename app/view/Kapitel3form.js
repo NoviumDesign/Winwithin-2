@@ -192,6 +192,7 @@ Ext.define('WinWithin.view.Kapitel3form', {
                     },
                     checker
             ]});
+
             // forslagPanel.add();
         } // Endfor
         this.add(forslagPanel);
@@ -242,6 +243,7 @@ Ext.define('WinWithin.view.Kapitel3form', {
                         },
                         checker
                 ]});
+                forslagPanel.getItems().items[forslagPanel.getItems().items.length-1].getItems().items[0].focus();
 
             }.bind(this)
         });

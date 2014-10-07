@@ -178,6 +178,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
                     label: '',
                     placeHolder: 'Verkliga bevis för att tanken är relevant'
                 });
+                bevisPanel.getItems().items[bevisPanel.getItems().items.length-1].focus();
             }.bind(this)
         });
         
@@ -227,6 +228,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
                     label: '',
                     placeHolder: 'Verkliga bevis för att tanken är grundlös'
                 });
+            grundPanel.getItems().items[grundPanel.getItems().items.length-1].focus();
             }.bind(this)
         });
 
@@ -414,3 +416,4 @@ Ext.define('WinWithin.view.Kapitel2form2', {
         scrollable: true
     }
 });
+ 
