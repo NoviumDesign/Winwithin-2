@@ -733,7 +733,7 @@ Ext.define("WinWithin.controller.Win", {
         }
     },
     saveBevis: function() {
-       
+        this.stopAllPlay.call(this);
         var kapitel2form2 = this.getKapitel2form2();
         var currentNote = kapitel2form2.getRecord();
         var newValues = kapitel2form2.getValues();
@@ -782,7 +782,7 @@ Ext.define("WinWithin.controller.Win", {
         }
     },
     deleteBevis: function() {
-      
+        this.stopAllPlay.call(this);
         var kapitel2form2 = this.getKapitel2form2();
         var currentNote = kapitel2form2.getRecord();
         var notesStore = Ext.getStore("Bevis");
@@ -981,6 +981,7 @@ Ext.define("WinWithin.controller.Win", {
         }
     },
     saveProblem: function() {
+        this.stopAllPlay.call(this);
         var kapitel3form = this.getKapitel3form();
         var currentNote = kapitel3form.getRecord();
         var newValues = kapitel3form.getValues();
@@ -1022,7 +1023,7 @@ Ext.define("WinWithin.controller.Win", {
         
     },
     deleteProblemCommand: function() {
-        
+        this.stopAllPlay.call(this);
         var kapitel3form = this.getKapitel3form();
         var currentNote = kapitel3form.getRecord();
         var notesStore = Ext.getStore('Problem');
