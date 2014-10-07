@@ -4643,3 +4643,10 @@ strong {
   color: white;
   font-size: 1em;
 }
+
+.UtmaningarlistCls.x-list .x-list-item .x-list-item-body, .UtmaningarlistCls.x-list .x-list-item.x-list-item-tpl .x-innerhtml {
+  padding: 0px;
+}
+.UtmaningarlistCls.x-list .x-list-item.x-list-item-tpl .x-innerhtml {
+padding: 0px;
+} 
