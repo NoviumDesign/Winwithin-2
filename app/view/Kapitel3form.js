@@ -31,6 +31,17 @@ Ext.define('WinWithin.view.Kapitel3form', {
             },
             {
                 xtype: 'button',
+                id:'playkapitel3Form',
+                style: {
+                    'background': 'none'
+                },
+                handler: this.play,
+                scope: this,
+                html: '<img name="kap3formPlay" src="resources/images/ic_action_play.png" style="width:36px;" />',
+                iconMask: true
+            },
+            {
+                xtype: 'button',
                 style: {
                     'background': 'none'
                 },
@@ -64,6 +75,13 @@ Ext.define('WinWithin.view.Kapitel3form', {
         };
 
         this.add([topToolbar, bottomToolbar]);
+        if (Ext.os.is.Android) {
+           Ext.getCmp('bottomToolbar').setHidden(true);
+           Ext.getCmp('playkapitel3Form').setHidden(false);
+        } else {
+          Ext.getCmp('playkapitel3Form').setHidden(true);
+          Ext.getCmp('bottomToolbar').setHidden(false);
+        }
     },
     updateWithForm: function() {
         if (this.currentPanel !== undefined) {
