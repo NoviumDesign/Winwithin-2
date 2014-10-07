@@ -6,6 +6,11 @@
 @import 'stylesheets/ios/views/for-or-against'
 @import 'stylesheets/ios/views/problem-solving'
 
+.x-dock-body
+  .x-body
+    .x-toolbar-inner
+      height: 49px
+
 // .x-toolbar.x-docked-top
 //     -moz-border-radius-topleft: 0px
 //     -webkit-border-top-left-radius: 0px
@@ -178,6 +183,9 @@
 .x-toolbar
   border-radius: 0!important
 
+.x-toolbar .x-title
+  padding-top: 0
+
 //fieldsets
 .x-form-fieldset .x-form-fieldset-inner,
 .x-panel-auto-height
@@ -189,7 +197,7 @@
 
 //container
 .x-scroll-container
-  background-color: #ffffff
+  background-color: #ffffff !important
 
 .x-button.x-button-back .x-button-label,
 .x-button.x-button-back:before

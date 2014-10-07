@@ -42,7 +42,7 @@ Ext.define('WinWithin.view.Utmaningar', {
                 },
                 handler: this.onNew,
                 scope: this,
-                html: '<img src="resources/images/ic_action_new.png" style="width:22px; margin-top: 6px;" />',
+                html: '<img src="resources/images/ic_action_new.png" style="width:22px; margin-top: 3px;" />',
                 iconMask: true
             }
             ]

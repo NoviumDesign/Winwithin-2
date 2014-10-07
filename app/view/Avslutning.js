@@ -28,11 +28,12 @@ Ext.define('WinWithin.view.Avslutning', {
                 id: 'playAvslutning',
                 docked:'right',
                 style: {
-                    'background': 'none'
+                    'background': 'none',
+                    'height': 'auto'
                 },
                 handler: this.play,
                 scope: this,
-                html: '<img name="avslPlay" src="resources/images/ic_action_play.png" style="width:36px;" />',
+                html: '<img name="avslPlay" class="play-button" src="resources/images/ic_action_play.png" style="width:36px;" />',
                 iconMask: true
             }
             ]
@@ -48,11 +49,12 @@ Ext.define('WinWithin.view.Avslutning', {
             {
                 xtype: 'button',
                 style: {
-                    'background': 'none'
+                    'background': 'none',
+                    'height': 'auto'
                 },
                 handler: this.play,
                 scope: this,
-                html: '<img name="avslPlay" src="resources/images/play.png" style="width:48px;" />',
+                html: '<img name="avslPlay" class="bottom-play-button" src="resources/images/play.png" style="width:48px;" />',
                 iconMask: true
             }
             ]

@@ -37,7 +37,7 @@ Ext.define('WinWithin.view.Kapitel2form1', {
                 },
                 handler: this.onDelete,
                 scope: this,
-                html: '<img src="resources/images/ic_action_discard.png" style="width:22px; margin-top: 6px;" />',
+                html: '<img src="resources/images/ic_action_discard.png" style="width:22px; margin-top: 3px;" />',
                 iconMask: true
             }
             ]

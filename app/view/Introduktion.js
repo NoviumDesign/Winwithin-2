@@ -33,11 +33,12 @@ Ext.define('WinWithin.view.Introduktion', {
                 id:'playIntroduktion',
                 docked:'right',
                 style: {
-                    'background': 'none'
+                    'background': 'none',
+                    'height': 'auto'
                 },
                 handler: this.play,
                 scope: this,
-                html: '<img name="introPlay" src="resources/images/ic_action_play.png" style="width:36px;" />',
+                html: '<img name="introPlay" class="play-button" src="resources/images/ic_action_play.png" style="width:36px;" />',
                 iconMask: true
             }
             ]
@@ -53,11 +54,12 @@ Ext.define('WinWithin.view.Introduktion', {
             {
                 xtype: 'button',
                 style: {
-                    'background': 'none'
+                    'background': 'none',
+                    'height': 'auto'
                 },
                 handler: this.play,
                 scope: this,
-                html: '<img name="introPlay" src="resources/images/play.png" style="width:48px;" />',
+                html: '<img name="introPlay" class="bottom-play-button" src="resources/images/play.png" style="width:48px;" />',
                 iconMask: true
             }
             ]

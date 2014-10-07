@@ -33,11 +33,12 @@ Ext.define('WinWithin.view.Kapitel2form2', {
                 xtype: 'button',
                 id:'playKap2form1PlayBtn',
                 style: {
-                    'background': 'none'
+                    'background': 'none',
+                    'height': 'auto'
                 },
                 handler: this.play,
                 scope: this,
-                html: '<img name="kap2form1Play" src="resources/images/ic_action_play.png" style="width:36px;" />',
+                html: '<img name="kap2form1Play" class="play-button" src="resources/images/ic_action_play.png" style="width:36px;" />',
                 iconMask: true
             },
             {
@@ -47,7 +48,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
                 },
                 handler: this.onDelete,
                 scope: this,
-                html: '<img src="resources/images/ic_action_discard.png" style="width:22px; margin-top: 6px;" />',
+                html: '<img src="resources/images/ic_action_discard.png" style="width:22px; margin-top: 3px;" />',
                 iconMask: true
             }
             ]
@@ -64,11 +65,12 @@ Ext.define('WinWithin.view.Kapitel2form2', {
             {
                 xtype: 'button',
                 style: {
-                    'background': 'none'
+                    'background': 'none',
+                    'height': 'auto'
                 },
                 handler: this.play,
                 scope: this,
-                html: '<img name="kap2form1Play" src="resources/images/play.png" style="width:48px;" />',
+                html: '<img name="kap2form1Play" class="bottom-play-button" src="resources/images/play.png" style="width:48px;" />',
                 iconMask: true
             }
             ]

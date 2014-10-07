@@ -29,11 +29,12 @@ Ext.define('WinWithin.view.Kapitel1', {
                 id:'playKapital1',
                 docked:'right',
                 style: {
-                    'background': 'none'
+                    'background': 'none',
+                    'height': 'auto'
                 },
                 handler: this.play,
                 scope: this,
-                html: '<img name="kap1Play" src="resources/images/ic_action_play.png" style="width:36px;" />',
+                html: '<img name="kap1Play" class="play-button" src="resources/images/ic_action_play.png" />',
                 iconMask: true
             }
             ]
@@ -49,11 +50,12 @@ Ext.define('WinWithin.view.Kapitel1', {
             {
                 xtype: 'button',
                 style: {
-                    'background': 'none'
+                    'background': 'none',
+                    'height': 'auto'
                 },
                 handler: this.play,
                 scope: this,
-                html: '<img name="kap1Play" src="resources/images/play.png" style="width:48px;" />',
+                html: '<img name="kap1Play" class="bottom-play-button" src="resources/images/play.png" style="width:48px;" />',
                 iconMask: true
             }
             ]
