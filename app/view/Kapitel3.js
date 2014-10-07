@@ -7,7 +7,7 @@ Ext.define('WinWithin.view.Kapitel3', {
         var topToolbar = {
             xtype: "toolbar",
             docked: 'top',
-            title: 'Kapitel 3',
+            title: 'Steg 3',
             style: {
                 'background': '#905f79'
             },

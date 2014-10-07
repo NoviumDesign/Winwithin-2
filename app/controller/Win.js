@@ -1134,7 +1134,7 @@ Ext.define("WinWithin.controller.Win", {
             }
         },
         {
-            text:'Kapitel 1',
+            text:'Steg 1',
             style: {
                 'height': '16.6666667%',
                 'background': '#7baf9a',
@@ -1147,7 +1147,7 @@ Ext.define("WinWithin.controller.Win", {
             }
         },
         {
-            text:'Kapitel 2',
+            text:'Steg 2',
             style: {
                 'height': '16.6666667%',
                 'background': '#495b6a',
@@ -1160,7 +1160,7 @@ Ext.define("WinWithin.controller.Win", {
             }
         },
         {
-            text:'Kapitel 3',
+            text:'Steg 3',
             style: {
                 'height': '16.6666667%',
                 'background': '#905f79',
