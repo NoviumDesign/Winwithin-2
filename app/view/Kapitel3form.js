@@ -158,7 +158,7 @@ Ext.define('WinWithin.view.Kapitel3form', {
                 id: 'forslagCheck'+key,
                 cls: 'checkGrey',
                 handler: function(el, ev) {
-                    if(el.up('.x-container').getCls() == 'checkGrey') {
+                    if(el.getCls()[0] == 'checkGrey') {
                         for (var c in this.valda) {
                             this.valda[c].setCls('checkGrey');
                         }
