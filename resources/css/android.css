@@ -665,7 +665,8 @@ body {
   -ms-flex-direction: column;
   flex-direction: column;
 }
-.x-stretched.x-container > .x-inner, .x-stretched.x-container > .x-body, .x-stretched.x-container > .x-body > .x-inner {
+.x-stretched.x-container > .x-inner, .x-stretched.x-container > .x-body,
+.x-stretched.x-container > .x-body > .x-inner {
   display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -705,7 +706,8 @@ body {
   height: 100%;
 }
 
-.x-ie .x-stretched > .x-inner, .x-ie .x-stretched > .x-body {
+.x-ie .x-stretched > .x-inner,
+.x-ie .x-stretched > .x-body {
   min-height: inherit;
 }
 
@@ -1250,7 +1252,8 @@ input, textarea {
 .x-html th, .x-html td, .x-html caption {
   padding: 4px 10px 4px 5px;
 }
-.x-html table.striped tr:nth-child(even) td, .x-html table tr.even td {
+.x-html table.striped tr:nth-child(even) td,
+.x-html table tr.even td {
   background: #e5ecf9;
 }
 .x-html tfoot {
@@ -1599,7 +1602,11 @@ input, textarea {
   height: 168px;
 }
 
-.x-ie .x-mask[visibility='visible'] ~ div:not(.x-mask) .x-input-el, .x-ie .x-mask[visibility='visible'] ~ div:not(.x-panel) .x-input-el, .x-ie .x-mask[visibility='visible'] ~ div:not(.x-floating) .x-input-el, .x-ie .x-mask[visibility='visible'] ~ div:not(.x-center) .x-input-el, .x-ie .x-mask[visibility='visible'] ~ div:not(.x-msgbox) .x-input-el, .x-ie .x-mask:not(.x-item-hidden) ~ div:not(.x-mask) .x-input-el, .x-ie .x-mask:not(.x-item-hidden) ~ div:not(.x-panel) .x-input-el, .x-ie .x-mask:not(.x-item-hidden) ~ div:not(.x-floating) .x-input-el, .x-ie .x-mask:not(.x-item-hidden) ~ div:not(.x-center) .x-input-el, .x-ie .x-mask:not(.x-item-hidden) ~ div:not(.x-msgbox) .x-input-el {
+.x-ie .x-mask[visibility='visible'] ~ div:not(.x-mask) .x-input-el,
+.x-ie .x-mask[visibility='visible'] ~ div:not(.x-panel) .x-input-el,
+.x-ie .x-mask[visibility='visible'] ~ div:not(.x-floating) .x-input-el,
+.x-ie .x-mask[visibility='visible'] ~ div:not(.x-center) .x-input-el,
+.x-ie .x-mask[visibility='visible'] ~ div:not(.x-msgbox) .x-input-el, .x-ie .x-mask:not(.x-item-hidden) ~ div:not(.x-mask) .x-input-el, .x-ie .x-mask:not(.x-item-hidden) ~ div:not(.x-panel) .x-input-el, .x-ie .x-mask:not(.x-item-hidden) ~ div:not(.x-floating) .x-input-el, .x-ie .x-mask:not(.x-item-hidden) ~ div:not(.x-center) .x-input-el, .x-ie .x-mask:not(.x-item-hidden) ~ div:not(.x-msgbox) .x-input-el {
   visibility: collapse;
 }
 
@@ -1766,7 +1773,8 @@ audio {
   padding: 6px;
   background-color: #ccc;
 }
-.x-panel.x-floating .x-panel-inner, .x-panel.x-floating > .x-body,
+.x-panel.x-floating .x-panel-inner,
+.x-panel.x-floating > .x-body,
 .x-msgbox .x-panel-inner,
 .x-msgbox > .x-body,
 .x-form.x-floating .x-panel-inner,
@@ -2100,7 +2108,8 @@ audio {
 .x-list .x-list-item.x-item-selected .x-dock-horizontal, .x-list .x-list-item.x-item-selected.x-list-item-tpl {
   background-color: #ccc;
 }
-.x-list .x-list-item.x-item-pressed.x-list-item-tpl, .x-list .x-list-item.x-item-pressed .x-dock-horizontal {
+.x-list .x-list-item.x-item-pressed.x-list-item-tpl,
+.x-list .x-list-item.x-item-pressed .x-dock-horizontal {
   background-color: #ddd;
 }
 .x-list .x-list-item .x-list-item-body, .x-list .x-list-item.x-list-item-tpl .x-innerhtml {
@@ -2270,7 +2279,8 @@ audio {
   position: relative;
   min-width: 3.7em;
 }
-.x-field .x-field-input, .x-field .x-input-el {
+.x-field .x-field-input,
+.x-field .x-input-el {
   width: 100%;
 }
 .x-field.x-field-labeled .x-form-label {
@@ -2352,7 +2362,8 @@ audio {
   width: 100%;
   text-align: center;
 }
-.x-spinner .x-field-input input::-webkit-outer-spin-button, .x-spinner .x-field-input input::-webkit-inner-spin-button {
+.x-spinner .x-field-input input::-webkit-outer-spin-button,
+.x-spinner .x-field-input input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -2376,7 +2387,8 @@ input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
 
-.x-field-number input::-webkit-outer-spin-button, .x-field-number input::-webkit-inner-spin-button {
+.x-field-number input::-webkit-outer-spin-button,
+.x-field-number input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
@@ -2836,10 +2848,12 @@ input[type="search"]::-webkit-search-cancel-button {
   overflow: hidden;
   border-width: 0 1px 0 0;
 }
-.x-grid .x-grid-cell-align-center, .x-grid .x-grid-column-align-center {
+.x-grid .x-grid-cell-align-center,
+.x-grid .x-grid-column-align-center {
   text-align: center;
 }
-.x-grid .x-grid-cell-align-right, .x-grid .x-grid-column-align-right {
+.x-grid .x-grid-cell-align-right,
+.x-grid .x-grid-column-align-right {
   text-align: right;
 }
 .x-grid .x-grid-viewoptions {
@@ -2858,13 +2872,19 @@ input[type="search"]::-webkit-search-cancel-button {
   overflow: hidden;
   padding-left: 10px;
 }
-.x-grid .x-grid-viewoptions .x-column-options-sortablehandle, .x-grid .x-grid-viewoptions .x-column-options-visibleindicator, .x-grid .x-grid-viewoptions .x-column-options-folder, .x-grid .x-grid-viewoptions .x-column-options-leaf {
+.x-grid .x-grid-viewoptions .x-column-options-sortablehandle,
+.x-grid .x-grid-viewoptions .x-column-options-visibleindicator,
+.x-grid .x-grid-viewoptions .x-column-options-folder,
+.x-grid .x-grid-viewoptions .x-column-options-leaf {
   width: 40px;
   height: 48px;
   position: absolute;
   bottom: 0;
 }
-.x-grid .x-grid-viewoptions .x-column-options-sortablehandle:after, .x-grid .x-grid-viewoptions .x-column-options-visibleindicator:after, .x-grid .x-grid-viewoptions .x-column-options-folder:after, .x-grid .x-grid-viewoptions .x-column-options-leaf:after {
+.x-grid .x-grid-viewoptions .x-column-options-sortablehandle:after,
+.x-grid .x-grid-viewoptions .x-column-options-visibleindicator:after,
+.x-grid .x-grid-viewoptions .x-column-options-folder:after,
+.x-grid .x-grid-viewoptions .x-column-options-leaf:after {
   position: absolute;
   top: 0;
   left: 0;
@@ -2891,11 +2911,13 @@ input[type="search"]::-webkit-search-cancel-button {
   line-height: 54px;
   content: "E";
 }
-.x-grid .x-grid-viewoptions .x-column-options-folder, .x-grid .x-grid-viewoptions .x-column-options-leaf {
+.x-grid .x-grid-viewoptions .x-column-options-folder,
+.x-grid .x-grid-viewoptions .x-column-options-leaf {
   width: 30px;
   left: 40px;
 }
-.x-grid .x-grid-viewoptions .x-column-options-folder:after, .x-grid .x-grid-viewoptions .x-column-options-leaf:after {
+.x-grid .x-grid-viewoptions .x-column-options-folder:after,
+.x-grid .x-grid-viewoptions .x-column-options-leaf:after {
   line-height: 52px;
   content: "o";
 }
@@ -4644,9 +4666,10 @@ strong {
   font-size: 1em;
 }
 
-.UtmaningarlistCls.x-list .x-list-item .x-list-item-body, .UtmaningarlistCls.x-list .x-list-item.x-list-item-tpl .x-innerhtml {
-  padding: 0px;
+.x-field-input .x-clear-icon {
+  display: none;
 }
-.UtmaningarlistCls.x-list .x-list-item.x-list-item-tpl .x-innerhtml {
-padding: 0px;
-} 
+
+.x-list .x-list-item .x-list-item-body, .x-list .x-list-item.x-list-item-tpl .x-innerhtml {
+  padding: 0;
+}

@@ -146,6 +146,7 @@ Ext.define('WinWithin.view.Kapitel3form', {
                 },
                 items: [
                     { xtype: 'component',
+                        cls: 'problem-solving-headline',
                         style: {
                             'background': '#FFF',
                             'padding': '10px'

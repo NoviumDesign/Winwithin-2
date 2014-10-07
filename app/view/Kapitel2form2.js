@@ -164,7 +164,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
         for (var key in this.relBevis) {
             bevisPanel.add({
                 xtype: 'autoHeightTextArea',
-                cls: '.x-form-fieldset-relevant',
+                cls: 'x-form-fieldset-relevant x-panel-auto-height',
                 name: 'relBevis'+key,
                 style: {
                     'background': '#FFF'
@@ -189,6 +189,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
                 key = this.relBevis.push('') -1;
                 bevisPanel.add({
                     xtype: 'autoHeightTextArea',
+                    cls: 'x-panel-auto-height',
                     name: 'relBevis'+key,
                     style: {
                         'background': '#FFF'
@@ -215,7 +216,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
         for (var key in this.grundBevis) {
             grundPanel.add({
                 xtype: 'autoHeightTextArea',
-                cls: 'x-form-fieldset-irrelevant',
+                cls: 'x-form-fieldset-irrelevant x-panel-auto-height',
                 name: 'grundBevis'+key,
                 style: {
                     'background': '#FFF'
@@ -239,6 +240,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
                 key = this.grundBevis.push('') -1;
                 grundPanel.add({
                     xtype: 'autoHeightTextArea',
+                    cls: 'x-panel-auto-height',
                     name: 'grundBevis'+key,
                     style: {
                         'background': '#FFF'
