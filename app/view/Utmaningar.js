@@ -132,13 +132,14 @@ Ext.define('WinWithin.view.Utmaningar', {
                 xtype: 'panel',
                 layout: 'fit',
                 cls: 'form-container',
-                items:[{
+                html:'<div align="center"><img src="resources/images/blankChallenges.png"  width="200px" height="100px" style="background-repeat: no-repeat;"></div>'
+                /*items:[{
                     xtype: 'image',
                     src: 'resources/images/blankChallenges.png',
                     width:'100%',
                     style:'background-repeat: no-repeat;',
                     height:100
-                }]
+                }]*/
             }
             this.add([panel]);
         } 
