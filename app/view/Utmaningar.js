@@ -127,6 +127,20 @@ Ext.define('WinWithin.view.Utmaningar', {
             }
 
             this.add([panel]);
+        }else{
+            var panel = {
+                xtype: 'panel',
+                layout: 'fit',
+                cls: 'form-container',
+                items:[{
+                    xtype: 'image',
+                    src: 'resources/images/blankChallenges.png',
+                    width:'100%',
+                    style:'background-repeat: no-repeat;',
+                    height:100
+                }]
+            }
+            this.add([panel]);
         } 
     },
     // onDisclose: function (list, record, target, index, evt, options) {
