@@ -3,6 +3,10 @@ Ext.define("WinWithin.store.Relevant", {
     requires:"Ext.data.proxy.LocalStorage",
     config: {
         model: "WinWithin.model.Relevant",
+        sorters:[{
+            property : 'id',
+            direction: 'DESC'
+        }],
         proxy: {
             type: 'localstorage',
             id: 'WinWithin-app-store-relevant'

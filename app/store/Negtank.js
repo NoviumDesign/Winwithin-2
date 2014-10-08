@@ -6,6 +6,10 @@ Ext.define("WinWithin.store.Negtank", {
     ],
     config: {
         model: "WinWithin.model.Negtank",
+        sorters:[{
+            property : 'id',
+            direction: 'DESC'
+        }],
         proxy: {
             type: 'localstorage',
             id: 'WinWithin-app-store-negtank'
