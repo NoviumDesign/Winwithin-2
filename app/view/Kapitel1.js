@@ -110,8 +110,8 @@ Ext.define('WinWithin.view.Kapitel1', {
            Ext.getCmp('bottomToolbar').setHidden(true);
            Ext.getCmp('playKapital1').setHidden(false);
         } else {
-          Ext.getCmp('playKapital1').setHidden(false);
-          Ext.getCmp('bottomToolbar').setHidden(true);
+          Ext.getCmp('playKapital1').setHidden(true);
+          Ext.getCmp('bottomToolbar').setHidden(false);
         } 
     },
 
