@@ -48,7 +48,7 @@ Ext.define('WinWithin.view.Nyutmaning', {
     },
     refresh: function() {
         this.removeAll();
-        var heightVar=window.innerHeight-180;
+        var heightVar=window.innerHeight-50;
         heightVar=heightVar/4;
         var listData = [
             { namnge: 'Negativa tankar och känslor', clss:'negtankList',bglistColor:'#7baf9a;',itemheight:heightVar},
@@ -62,7 +62,7 @@ Ext.define('WinWithin.view.Nyutmaning', {
             xtype: "utmaningarlist",
             style: {
                 'background': '#FFF'
-            },
+            },           
             data: listData,
             listeners: {
                     scope: this,
