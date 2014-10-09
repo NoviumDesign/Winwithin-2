@@ -209,7 +209,7 @@ Ext.define('WinWithin.view.Kapitel3form', {
                         },
                         label: '',
                         value: this.forslag[key],
-                        placeHolder: 'Verkliga bevis för att tanken är relevant'
+                        placeHolder: 'Beskriv din problemlösning'
                     },
                     checker
             ]});

@@ -72,7 +72,7 @@ Ext.define('WinWithin.view.Avslutning', {
                     'font-weight': 'bold',
                     'background': '#FFF'
                 },
-                html: '<h1>Avslutning</h1>'
+                html: '<h1>Slutord</h1>'
             },{
                 xtype: 'component',
                 padding: 0,
@@ -82,7 +82,7 @@ Ext.define('WinWithin.view.Avslutning', {
                 html: [
                     '<p>Bra jobbat! Nu har du g&aring;tt igenom alla de tre stegen. Du har l&auml;rt dig en metod, ett '
     +'f&ouml;rh&aring;llningss&auml;tt gentemot dina negativa tankar och obehagliga k&auml;nslor.&nbsp;<br />'
-    +'I kapitel 3 gick vi igenom hur du ska handskas med dina grundl&ouml;sa respektive relevanta tankar. Att du ska sl&auml;ppa de '
+    +'I steg 3 gick vi igenom hur du ska handskas med dina grundl&ouml;sa respektive relevanta tankar. Att du ska sl&auml;ppa de '
     +'grundl&ouml;sa tankarna och probleml&ouml;sa de relevanta negativa tankarna. Naturligtvis kan man inte probleml&ouml;sa bort alla '
     +'relevanta negativa tankar och k&auml;nslor. Drabbas man av en sorg eller h&auml;ndelse som ligger utanf&ouml;r den egna '
     +'beslutssf&auml;ren s&aring; &auml;r oro och negativa tankar sv&aring;ra att v&auml;rja sig emot och dessutom naturliga att ha. Att '
@@ -95,7 +95,7 @@ Ext.define('WinWithin.view.Avslutning', {
     +'tankar och k&auml;nslor utan att beh&ouml;va fastna i negativa tankebanor och l&aring;ngdraget &auml;ltande. Nu &auml;r det &ouml;vning '
     +'som st&aring;r p&aring; agendan f&ouml;r att du ska f&aring; dina nyvunna kunskaper att f&auml;sta ordentligt, f&ouml;r som jag sa i '
     +'b&ouml;rjan, &ouml;vning ger f&auml;rdighet och f&auml;rdighet ger resultat.</p>'
-    +'<p>Lycka till!<br />Kaxa Lindberg Rob&eacute;<br />Win Within</p>'].join("")
+    +'<p>Lycka till!</p>'].join("")
             }
             ]
                         

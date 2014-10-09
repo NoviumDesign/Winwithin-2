@@ -76,7 +76,7 @@ Ext.define('WinWithin.view.Introduktion', {
                     'font-weight': 'bold',
                     'background': '#FFF'
                 },
-                html: '<h1>Utmana dina tankar- &auml;ndra ditt beteende- m&aring; b&auml;ttre.</h1>'
+                html: '<h1>Utmana dina tankar - &auml;ndra ditt beteende och m&aring; b&auml;ttre.</h1>'
             },{
                 xtype: 'component',
                 padding: 0,
@@ -97,7 +97,7 @@ Ext.define('WinWithin.view.Introduktion', {
                     +'Hur du kan l&auml;ra dig att l&auml;sa av, och f&ouml;rst&aring;, var de obehagliga k&auml;nslorna kommer ifr&aring;n. Vi kommer '
                     +'ocks&aring; att g&aring; igenom hur du kan sortera bland dina negativa tankar. Hur du ska g&ouml;ra f&ouml;r att kunna fatta '
                     +'v&auml;lfungerande beslut samt p&aring; ett realistiskt s&auml;tt kunna f&ouml;rh&aring;lla dig till din vardag. I slutet av varje '
-                    +'kapitel kommer du att f&aring; en utmaning att g&ouml;ra p&aring; egen hand. Du kan v&auml;lja att f&aring; texten uppl&auml;st om du '
+                    +'steg kommer du att f&aring; en utmaning att g&ouml;ra p&aring; egen hand. Du kan v&auml;lja att f&aring; texten uppl&auml;st om du '
                     +'inte vill l&auml;sa sj&auml;lv. Denna metod ska inte ses som v&aring;rd eller psykoterapi.</p> <p>Det heter att &ouml;vning ger '
                     +'f&auml;rdighet och min erfarenhet &auml;r att det st&auml;mmer. Vill du f&aring; kontroll p&aring; ditt inre liv, vad som '
                     +'p&aring;g&aring;r, s&aring; m&aring;ste du ha kunskap och verktyg f&ouml;r att kunna f&aring; det. Om du arbetar dig igenom den '

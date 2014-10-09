@@ -111,7 +111,7 @@ Ext.define('WinWithin.view.Kapitel2', {
 
 +'<p>Det kan vara knepigt att avg&ouml;ra om en negativ tanke &auml;r relevant eller grundl&ouml;s, du kommer v&auml;l ih&aring;g hur tanken '
 +'blir bekr&auml;ftad av k&auml;nslan och att du d&auml;rmed luras till att tro p&aring; det du t&auml;nkt. Trots att det kan vara sv&aring;rt '
-+'s&aring; &auml;r det av vikt att kunna avg&ouml;ra om tanken &auml;r relevant eller grundl&ouml;s. Din utmaning i detta kapitel blir att skilja '
++'s&aring; &auml;r det av vikt att kunna avg&ouml;ra om tanken &auml;r relevant eller grundl&ouml;s. Din utmaning i detta steg blir att skilja '
 +'dina negativa tankar &aring;t. Du ska dela in dem i de tv&aring; grupperna, relevanta och grundl&ouml;sa. Tycker du att det &auml;r sv&aring;rt '
 +'att avg&ouml;ra om en negativ tanke &auml;r relevant eller inte g&aring;r du till utmaning: bevis f&ouml;r och emot. D&auml;r skriver du ner '
 +'din negativa tanke. G&aring; sedan igenom vad du har f&ouml;r bevis som talar f&ouml;r att den &auml;r relevant och bevis som talar emot att '
@@ -120,14 +120,14 @@ Ext.define('WinWithin.view.Kapitel2', {
 +'du inte blir lurad av stressande k&auml;nslop&aring;slag som f&aring;r dig att se grundl&ouml;sa negativa tankar som relevanta.&nbsp;<br />'
 +'Beh&ouml;ver du inte pr&ouml;va tankens sanningshalt med hj&auml;lp av bevis f&ouml;r och emot, utan tror att du kan avg&ouml;ra direkt om '
 +'tanken &auml;r relevant eller grundl&ouml;s, d&aring; kan du g&aring; till utmaning: relevant eller grundl&ouml;s tanke.&nbsp;<br />'
-+'Arbeta med denna utmaning under ett par dagar, innan du g&aring;r vidare till kapitel 3.</p>'
++'Arbeta med denna utmaning under ett par dagar, innan du g&aring;r vidare till steg 3.</p>'
 
-+'<p>Sammanfattning:<br />'
-+'<strong>Negativa tankar</strong> leder till att<br />'
++'<p><strong>Sammanfattning:</strong><br />'
++'<span class="prior-chapter"><strong>Negativa tankar</strong> leder till att<br />'
 +'<strong>kamp- och flyktsystemet</strong> drar ig&aring;ng.<br />'
-+'Negativa tankar &auml;r uppbyggda kring <strong>v&auml;rdeord.</strong><br />'
++'Negativa tankar &auml;r uppbyggda kring <strong>v&auml;rdeord.</strong></span><br />'
 +'<strong>Relevanta</strong> och <strong>grundl&ouml;sa</strong> tankar. B&aring;da kategorierna leder till kroppsliga reaktioner.&nbsp;</p>',
-'<p><strong>Utmaning kapitel </strong><strong>2.<br/> Bevis f&ouml;r och emot. Bevis som talar f&ouml;r och emot att tanken &auml;r relevant.'
+'<p><strong>Utmaning steg </strong><strong>2.<br/> Bevis f&ouml;r och emot. Bevis som talar f&ouml;r och emot att tanken &auml;r relevant.'
     +'</strong></p><p>F&ouml;r att du ska f&aring; en id&eacute; om hur du kan t&auml;nka n&auml;r du ska utf&ouml;ra din utmaning ger jag '
     +'dig tre exempel. F&ouml;r enkelhetens skull har jag lagt alla bevisen under samma kategori.</p>'
     +'<p>Exempel 1.<br /> Negativa tankar:<br /> Min man &auml;r aldrig hemma nuf&ouml;rtiden. T&auml;nk om han har tr&auml;ffat n&aring;gon '
