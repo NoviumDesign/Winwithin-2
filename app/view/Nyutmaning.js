@@ -48,12 +48,13 @@ Ext.define('WinWithin.view.Nyutmaning', {
     },
     refresh: function() {
         this.removeAll();
-        
+        var heightVar=window.innerHeight-180;
+        heightVar=heightVar/4;
         var listData = [
-            { namnge: 'Negativa tankar och känslor', clss:'negtankList',bglistColor:'#7baf9a;'},
-            { namnge: 'Bevis för och emot', clss:'bevisList',bglistColor:'#495b6a;'},
-            { namnge: 'Relevant eller grundlös tanke', clss:'bevisList',bglistColor:'#495b6a;'},
-            { namnge: 'Problemlösning', clss:'problemList',bglistColor:'#905f79;' }
+            { namnge: 'Negativa tankar och känslor', clss:'negtankList',bglistColor:'#7baf9a;',itemheight:heightVar},
+            { namnge: 'Bevis för och emot', clss:'bevisList',bglistColor:'#495b6a;',itemheight:heightVar},
+            { namnge: 'Relevant eller grundlös tanke', clss:'bevisList',bglistColor:'#495b6a;',itemheight:heightVar},
+            { namnge: 'Problemlösning', clss:'problemList',bglistColor:'#905f79;',itemheight:heightVar }
         ];
         
         

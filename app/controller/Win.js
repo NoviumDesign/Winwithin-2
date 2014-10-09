@@ -436,11 +436,9 @@ Ext.define("WinWithin.controller.Win", {
                 break;
             case 'Bevis för och emot':
                     var kapitel2form2 = this.getKapitel2form2();
-        
                     if (!record.hasOwnProperty('internalId')) {
                         var now = new Date();
                         var noteId = (now.getTime()).toString() + (this.getRandomInt(0, 100)).toString();
-
                         var record = Ext.create("WinWithin.model.Bevis", {
                             id: noteId,
                             dateCreated: now,
@@ -624,7 +622,7 @@ Ext.define("WinWithin.controller.Win", {
                 utmaningar.refresh('Negtank');
         switch(kapitel1form.backEvent) {
             case 'backToKapitel1': 
-                this.backToKapitel1(); 
+                this.backToKapitel1();
                 break;
             case 'backToNyUtm':
                
