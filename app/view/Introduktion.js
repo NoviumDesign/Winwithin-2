@@ -89,7 +89,7 @@ Ext.define('WinWithin.view.Introduktion', {
                     +'av sina tankar. De har befunnit sig i ett m&ouml;nster av k&auml;nslot&auml;nkande. Helt enkelt tillskrivit sina egna tankar och '
                     +'k&auml;nslor en allt f&ouml;r stor och felaktig betydelse. De har m&aring;tt d&aring;ligt av alla obehagliga, stressfyllda k&auml;nslor '
                     +'som det negativa t&auml;nkandet gett upphov till.&nbsp;</p>'
-                    +'Hur vi ska agera i olika situationer och vilka beslut vi ska fatta i olika fr&aring;gor baserar vi p&aring; vad vi t&auml;nker och '
+                    +'<p>Hur vi ska agera i olika situationer och vilka beslut vi ska fatta i olika fr&aring;gor baserar vi p&aring; vad vi t&auml;nker och '
                     +'k&auml;nner. Med den vetskapen &auml;r det inte sv&aring;rt att r&auml;kna ut hur ett negativt och pessimistiskt t&auml;nkande '
                     +'p&aring;verkar det vi g&ouml;r eller avst&aring;r fr&aring;n att g&ouml;ra.&nbsp;</p> <p>Med den h&auml;r appen vill jag presentera '
                     +'en rationell och praktisk 3-stegsmetod f&ouml;r dig som t&auml;nker pessimistiskt och har ett &ouml;verskott av negativa tankar.&nbsp;'
