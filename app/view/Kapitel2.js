@@ -127,24 +127,6 @@ Ext.define('WinWithin.view.Kapitel2', {
 +'<strong>kamp- och flyktsystemet</strong> drar ig&aring;ng.<br />'
 +'Negativa tankar &auml;r uppbyggda kring <strong>v&auml;rdeord.</strong></span><br />'
 +'<strong>Relevanta</strong> och <strong>grundl&ouml;sa</strong> tankar. B&aring;da kategorierna leder till kroppsliga reaktioner.&nbsp;</p>',
-'<p><strong>Utmaning steg </strong><strong>2.<br/> Bevis f&ouml;r och emot. Bevis som talar f&ouml;r och emot att tanken &auml;r relevant.'
-    +'</strong></p><p>F&ouml;r att du ska f&aring; en id&eacute; om hur du kan t&auml;nka n&auml;r du ska utf&ouml;ra din utmaning ger jag '
-    +'dig tre exempel. F&ouml;r enkelhetens skull har jag lagt alla bevisen under samma kategori.</p>'
-    +'<p>Exempel 1.<br /> Negativa tankar:<br /> Min man &auml;r aldrig hemma nuf&ouml;rtiden. T&auml;nk om han har tr&auml;ffat n&aring;gon '
-    +'annan?<br /> Bevis som talar f&ouml;r att han har tr&auml;ffat n&aring;gon annan? Jag har inga.<br /> Bevis som talar emot att han har '
-    +'tr&auml;ffat n&aring;gon annan?<br /> Han har mycket att g&ouml;ra p&aring; jobbet. Det har han varje &aring;r vid den h&auml;r tiden.<br />'
-    +'Ig&aring;r fr&aring;gade han om vi skulle resa n&aring;gonstans n&auml;r allt lugnat ner sig.<br />'
-    +'Var tankarna relevanta eller grundl&ouml;sa? Mina negativa tankar var grundl&ouml;sa.</p>'
-    +'<p>Exempel 2.<br />Negativa tankar: Jag &auml;r alltid ensam p&aring; helgerna. Ingen vill umg&aring;s med mig.<br />'
-    +'Bevis som talar f&ouml;r att ingen vill umg&aring;s med mig. T&auml;nker jag efter s&aring; har jag inga.<br />'
-    +'Bevis som talar emot att ingen vill umg&aring;s med mig.<br /> 1. Jag skylde p&aring; att jag var upptagen n&auml;r jag blev inbjuden '
-    +'till en middag f&ouml;rra helgen.<br /> 2. Jag bjuder sj&auml;lv aldrig in andra eller f&ouml;resl&aring;r n&aring;gra gemensamma '
-    +'aktiviteter.<br />Var tankarna relevanta eller grundl&ouml;sa? Mina negativa tankar var grundl&ouml;sa.</p><p>Exempel 3.<br />'
-    +'Negativa tankar: Min chef intresserar sig aldrig f&ouml;r mina id&eacute;er p&aring; jobbet.<br />'
-    +'Bevis som talar f&ouml;r att att min chef inte &auml;r intresserad av mina id&eacute;er.&nbsp;<br />Min chef har aldrig bett om mina '
-    +'synpunkter.<br />Varje g&aring;ng jag har kommit med en id&eacute; s&auml;ger min chef att vi f&aring;r t&auml;nka p&aring; saken. '
-    +'Efter det n&auml;mns aldrig det jag f&ouml;reslagit igen.<br /> Bevis som talar emot att min chef inte &auml;r intresserad av mina '
-    +'id&eacute;er. Jag kan inte hitta n&aring;gra.&nbsp;<br /> Var tanken relevant eller grundl&ouml;s? Min negativa tanke var relevant.</p>'
 ].join("")
             },{
                 xtype: "button",

@@ -87,9 +87,9 @@ Ext.define('WinWithin.view.Kapitel3', {
     +'bed&ouml;mningen &aring;t dig. G&aring; tillbaka till uppgiften ett tag till. H&aring;ll dina k&auml;nslor utanf&ouml;r och bed&ouml;m '
     +'det du t&auml;nkt enbart med hj&auml;lp av din analytiska f&ouml;rm&aring;ga.&nbsp;</p>'
     +'<p>Du har nu l&auml;rt dig tv&aring; av de tre stegen i metoden.<br />'
-    +'Att se sambandet mellan dina negativa tankar och dina obehagliga k&auml;nslop&aring;slag. Att se hur en negativ tanke &auml;r '
+    +'1. Att se sambandet mellan dina negativa tankar och dina obehagliga k&auml;nslop&aring;slag. Att se hur en negativ tanke &auml;r '
     +'uppbyggd och att f&aring;nga dina egna negativa tankar.<br />'
-    +'Att skilja mellan relevanta och grundl&ouml;sa negativa tankar.</p>'
+    +'2.  skilja mellan relevanta och grundl&ouml;sa negativa tankar.</p>'
     +'<p>Nu n&auml;r du har kommit s&aring; l&aring;ngt att du kan avg&ouml;ra om de negativa tankarna &auml;r relevanta eller '
     +'grundl&ouml;sa ska vi g&aring; igenom hur du ska f&ouml;rh&aring;lla dig till dem. S&aring; h&auml;r ska du handskas med dem.&nbsp;</p>'
     +'<p>Grundl&ouml;sa tankar:<br />'
@@ -108,7 +108,7 @@ Ext.define('WinWithin.view.Kapitel3', {
     +'oron och de negativa tankarna att f&aring; fritt spelrum. Man kommer &auml;gna sig &aring;t &auml;ltande f&ouml;r att p&aring; s&aring; '
     +'s&auml;tt f&ouml;rs&ouml;ka l&ouml;sa problemet. Men, &auml;ltande av negativa tankar har ingenting med probleml&ouml;sning att '
     +'g&ouml;ra. Att &auml;lta &auml;r att t&auml;nka runt i meningsl&ouml;sa cirklar. Att probleml&ouml;sa &auml;r att t&auml;nka '
-    +'strukturerat och bygger p&aring; relevanta, valda alternativ. Du ska allts&aring; b&ouml;rja probleml&ouml;sa de negativa relevanta '
+    +'strukturerat och bygger p&aring; relevanta, valda alternativ. Du ska allts&aring; b&ouml;rja probleml&ouml;sa de relevanta negativa '
     +'tankarna.&nbsp;</p>'
     +'<p>Varf&ouml;r &auml;r det bara de relevanta negativa tankarna som ska probleml&ouml;sas och inte de grundl&ouml;sa? Om du ger dig '
     +'p&aring; att f&ouml;rs&ouml;ka probleml&ouml;sa de grundl&ouml;sa tankarna kommer du inte att lyckas f&ouml;r hur l&ouml;ser man ett '
@@ -154,26 +154,7 @@ Ext.define('WinWithin.view.Kapitel3', {
     +'drar ig&aring;ng.<br /> Negativa tankar &auml;r uppbyggda kring <strong>v&auml;rdeord.</strong><br />'
     +'<strong>Relevanta och</strong> <strong>grundl&ouml;sa</strong> tankar. B&aring;da kategorierna leder till kroppsliga '
     +'reaktioner.&nbsp;</span><br /> Verkliga problem ska <strong>probleml&ouml;sas </strong>och grundl&ouml;sa problem ska '
-    +'<strong>sl&auml;ppas</strong>.</p>',
-    '<strong>Utmaning steg 3. Probleml&ouml;sning</strong><br /> F&ouml;r att du ska f&aring; en id&eacute; om hur du kan '
-    +'t&auml;nka n&auml;r du ska utf&ouml;ra din utmaning ger jag dig tv&aring; exempel.&nbsp;</p><p>Exempel 1.<br />'
-    +'Negativa tankar: Min chef intresserar sig aldrig f&ouml;r mina id&eacute;er p&aring; jobbet.<br /> Det &auml;r alltid andras id&eacute;er '
-    +'hon v&auml;ljer. Det jag f&ouml;resl&aring;r negligeras alltid.&nbsp;</p><p>Beskriv problemet: Min chef intresserar sig aldrig f&ouml;r '
-    +'mina id&eacute;er.<br />T&auml;nk ut och skriv ner olika f&ouml;rslag till att l&ouml;sa problemet:&nbsp;<br />'
-    +'Jag pratar med chefen och fr&aring;gar varf&ouml;r mina id&eacute;er aldrig uppm&auml;rksammas.<br />'
-    +'Jag b&ouml;rjar leta efter ett nytt arbete.&nbsp;<br />'
-    +'Jag slutar att komma med synpunkter.<br />'
-    +'V&auml;lj det alternativ till l&ouml;sning du tror blir b&auml;st och genomf&ouml;r det: Jag b&ouml;rjar leta efter ett nytt arbete.</p>'
-    +'<p>Exempel 2.<br />Negativa tankar: Vad ska jag laga f&ouml;r mat i helgen n&auml;r sv&auml;rfar kommer p&aring; bes&ouml;k? Det '
-    +'kommer inte spela n&aring;gon roll om jag anstr&auml;nger mig. Han kommer att f&auml;lla en massa spydiga kommentarer oavsett vad jag '
-    +'lagar. Det g&ouml;r han alltid n&auml;r ingen annan h&ouml;r. &rdquo;Matlagning har aldrig varit din starka sida&rdquo; det kommer han '
-    +'s&auml;kert att s&auml;ga. Usch, hela helgen kommer att vara f&ouml;rst&ouml;rd med honom i huset. Jag kommer att vara helt slut '
-    +'n&auml;r arbetsveckan k&ouml;r ig&aring;ng igen. Jag kommer inte orka prestera n&aring;got vettigt och min chef blir s&auml;kert '
-    +'missn&ouml;jd med mig.</p><p><strong>Beskriv</strong> problemet: Min sv&auml;rfar &auml;r spydig och elak emot mig.<br />'
-    +'T&auml;nk ut och skriv ner olika f&ouml;rslag till att l&ouml;sa problemet:&nbsp;<br />Jag ringer upp sv&auml;rfar innan han kommer '
-    +'p&aring; bes&ouml;k och pratar med honom.<br />Jag pratar med min man om problemet.<br />Jag bokar in n&aring;gonting annat hela helgen '
-    +'s&aring; slipper jag att vara hemma.<br />V&auml;lj det alternativ till l&ouml;sning du tror blir b&auml;st och genomf&ouml;r '
-    +'det:<br />Jag pratar med min man om problemet.</p>'].join("")
+    +'<strong>sl&auml;ppas</strong>.</p>'].join("")
             },{
                 xtype: "button",
                 iconCls: "",

@@ -102,7 +102,7 @@ Ext.define('WinWithin.view.Introduktion', {
                     +'f&auml;rdighet och min erfarenhet &auml;r att det st&auml;mmer. Vill du f&aring; kontroll p&aring; ditt inre liv, vad som '
                     +'p&aring;g&aring;r, s&aring; m&aring;ste du ha kunskap och verktyg f&ouml;r att kunna f&aring; det. Om du arbetar dig igenom den '
                     +'h&auml;r appen s&aring; &auml;r du p&aring; v&auml;g mot att:<br /> &nbsp;-&nbsp;utmana dina tankar<br /> &nbsp;-&nbsp;&auml;ndra ditt '
-                    +'beteende<br /> &nbsp;-&nbsp;och att m&aring; b&auml;ttre.</p> <p>Nu b&ouml;rjar vi.</p><br/><br/>'].join("")
+                    +'beteende<br /> &nbsp;-&nbsp;och att m&aring; b&auml;ttre.</p> <p>Nu b&ouml;rjar vi.</p>'].join("")
             }
             ]
         };
