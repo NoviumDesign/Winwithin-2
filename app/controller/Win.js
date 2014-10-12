@@ -1176,7 +1176,7 @@ Ext.define("WinWithin.controller.Win", {
             }
         },
         {
-            text:'Avslutning',
+            text:'Slutord',
             style: {
                 'height': '16.6666667%',
                 'background': '#657798',
