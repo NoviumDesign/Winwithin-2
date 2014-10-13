@@ -74,6 +74,9 @@
             "path": "app.js",
             "bundle": true,  /* Indicates that all class dependencies are concatenated into this file when build */
             "update": "delta"
+        },
+         {
+            "path": "mediaPlayer.js"
         }
     ],
 
@@ -135,6 +138,7 @@
      * Extra resources to be copied along when build
      */
     "resources": [
+    	"resources/audio",
         "resources/images",
         "resources/icons",
         "resources/startup"

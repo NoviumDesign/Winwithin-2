@@ -91,277 +91,254 @@ Ext.define("WinWithin.controller.Win", {
       
         Ext.Viewport.toggleMenu('left');
     },
-    stopAllPlay: function() {
-        if (typeof Media === 'function') {
-             this.audio.stop();
-             this.audio.release();
-        } else {
-            // Introduktion
-            if(!document.getElementById('multiaudio1').paused) {
+      stopAllPlay: function() {
+        if (typeof custom_AudioMediaPlayer != '') {
+             custom_AudioMediaPlayer.pauseAudio(custom_AudioMediaPlayer.isPlayFromView);
+         } else {
+          if(custom_AudioMediaPlayer.isPlaying)
+          {
+            custom_AudioMediaPlayer.pauseAudio(custom_AudioMediaPlayer.isPlayFromView);
+          }
+             // Introduktion
+            if(custom_AudioMediaPlayer.isPlayFromView =="multiaudio1") {
                 var imgs = document.getElementsByName('introPlay');
                 for (var iKey in imgs) {
                     imgs[iKey].src = 'resources/images/play.png';
                 }
-                document.getElementById('multiaudio1').pause();
-                document.getElementById('multiaudio1').currentTime = 0;
+                
+                //document.getElementById('multiaudio1').currentTime = 0;
             }
-            // Kapitel 1
-            if(!document.getElementById('multiaudio2').paused) {
+           // Kapitel 1
+            if(custom_AudioMediaPlayer.isPlayFromView =="multiaudio2") {
                 var imgs = document.getElementsByName('kap1Play');
                 for (var iKey in imgs) {
                     imgs[iKey].src = 'resources/images/play.png';
                 }
-                document.getElementById('multiaudio2').pause();
-                document.getElementById('multiaudio2').currentTime = 0;
+                  
             }
             // Kapitel 2
-            if(!document.getElementById('multiaudio3').paused) {
+            if(custom_AudioMediaPlayer.isPlayFromView =="multiaudio3") {
                 var imgs = document.getElementsByName('kap2Play');
                 for (var iKey in imgs) {
                     imgs[iKey].src = 'resources/images/play.png';
                 }
-                document.getElementById('multiaudio3').pause();
-                document.getElementById('multiaudio3').currentTime = 0;
+              
             }
             // Kapitel 3
-            if(!document.getElementById('multiaudio4').paused) {
+            if(custom_AudioMediaPlayer.isPlayFromView =="multiaudio4" ){
                 var imgs = document.getElementsByName('kap3Play');
                 for (var iKey in imgs) {
                     imgs[iKey].src = 'resources/images/play.png';
                 }
-                document.getElementById('multiaudio4').pause();
-                document.getElementById('multiaudio4').currentTime = 0;
+            
             }
             // Avslutning
-            if(!document.getElementById('multiaudio5').paused) {
+            if(custom_AudioMediaPlayer.isPlayFromView =="multiaudio5"){
                 var imgs = document.getElementsByName('avslPlay');
                 for (var iKey in imgs) {
                     imgs[iKey].src = 'resources/images/play.png';
                 }
-                document.getElementById('multiaudio5').pause();
-                document.getElementById('multiaudio5').currentTime = 0;
+                
             }
             // Kapitel 2 utmaning
-            if(!document.getElementById('multiaudio6').paused) {
+            if(custom_AudioMediaPlayer.isPlayFromView =="multiaudio6"){
                 var imgs = document.getElementsByName('kap2form1Play');
                 for (var iKey in imgs) {
                     imgs[iKey].src = 'resources/images/play.png';
                 }
-                document.getElementById('multiaudio6').pause();
-                document.getElementById('multiaudio6').currentTime = 0;
+           
             }
             // Kapitel 3 utmaning
-            if(!document.getElementById('multiaudio7').paused) {
+           if(custom_AudioMediaPlayer.isPlayFromView =="multiaudio7"){
                 var imgs = document.getElementsByName('kap3formPlay');
                 for (var iKey in imgs) {
                     imgs[iKey].src = 'resources/images/play.png';
                 }
-                document.getElementById('multiaudio7').pause();
-                document.getElementById('multiaudio7').currentTime = 0;
             }
             // Jingel
-            if(!document.getElementById('multiaudio8').paused) {
-                document.getElementById('multiaudio8').pause();
-                document.getElementById('multiaudio8').currentTime = 0;
+           if(custom_AudioMediaPlayer.isPlayFromView =="multiaudio8") {
+                custom_AudioMediaPlayer.pauseAudio('multiaudio8');
             }
         }
     },
     playIntroduktion: function () {
-       
-        if(!document.getElementById('multiaudio1').paused) {
+        if(custom_AudioMediaPlayer.isPlaying) {
             // Playing
             var imgs = document.getElementsByName('introPlay');
             for (var iKey in imgs) {
-                //imgs[iKey].src = 'resources/images/play.png';
-                if (Ext.os.is.Android) {
-                  imgs[iKey].src = 'resources/images/ic_action_play.png';
-                }else{
-                     imgs[iKey].src = 'resources/images/play.png';
-                }
+                  if (Ext.os.is.Android) {
+                     imgs[iKey].src = 'resources/images/ic_action_play.png';
+                       }else{          
+                           imgs[iKey].src = 'resources/images/play.png';
             }
-            document.getElementById('multiaudio1').pause();
+	}
+             custom_AudioMediaPlayer.pauseAudio("multiaudio1");
         } else {
             // Not playing
             var imgs = document.getElementsByName('introPlay');
             for (var iKey in imgs) {
-               // imgs[iKey].src = 'resources/images/paus.png';
-                if (Ext.os.is.Android) {
+ 		if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_pause.png';
                 }else{
                      imgs[iKey].src = 'resources/images/paus.png';
                 } 
             }
-
-
-            document.getElementById('multiaudio1').play();
+            custom_AudioMediaPlayer.playAudio("resources/audio/introduktion.mp3","multiaudio1");
+         
         }
     },
     playKapitel1: function() {
         // kap1Play
-        if(!document.getElementById('multiaudio2').paused) {
+        if(custom_AudioMediaPlayer.isPlaying) {
             // Playing
             var imgs = document.getElementsByName('kap1Play');
             for (var iKey in imgs) {
-                //imgs[iKey].src = 'resources/images/play.png';
-                if (Ext.os.is.Android) {
+		if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_play.png';
                 }else{
                      imgs[iKey].src = 'resources/images/play.png';
                 }
-            }
-            document.getElementById('multiaudio2').pause();
+            }               
+             custom_AudioMediaPlayer.pauseAudio("multiaudio2");
         } else {
             // Not playing
             var imgs = document.getElementsByName('kap1Play');
             for (var iKey in imgs) {
-                //imgs[iKey].src = 'resources/images/paus.png';
-                if (Ext.os.is.Android) {
+            if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_pause.png';
                 }else{
                      imgs[iKey].src = 'resources/images/paus.png';
                 } 
-            }
-            document.getElementById('multiaudio2').play();
+            }            custom_AudioMediaPlayer.playAudio("resources/audio/kapitel1.mp3","multiaudio2");
         }
     },
     playKapitel2: function (){
         // kap2Play
-        if(!document.getElementById('multiaudio3').paused) {
+        if(custom_AudioMediaPlayer.isPlaying) {
             // Playing
             var imgs = document.getElementsByName('kap2Play');
             for (var iKey in imgs) {
-                //imgs[iKey].src = 'resources/images/play.png';
-                if (Ext.os.is.Android) {
-                    imgs[iKey].src = 'resources/images/ic_action_play.png';
+               if (Ext.os.is.Android) {
+                  imgs[iKey].src = 'resources/images/ic_action_play.png';
                 }else{
-                    imgs[iKey].src = 'resources/images/play.png';
-                }
+                     imgs[iKey].src = 'resources/images/play.png';
+                } 
             }
-            document.getElementById('multiaudio3').pause();
+            
+            custom_AudioMediaPlayer.pauseAudio("multiaudio3");
         } else {
             // Not playing
             var imgs = document.getElementsByName('kap2Play');
             for (var iKey in imgs) {
-                //imgs[iKey].src = 'resources/images/paus.png';
-                if (Ext.os.is.Android) {
+               if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_pause.png';
                 }else{
                      imgs[iKey].src = 'resources/images/paus.png';
                 } 
             }
-            document.getElementById('multiaudio3').play();
+            custom_AudioMediaPlayer.playAudio("resources/audio/kapitel2.mp3","multiaudio3");
         }
     },
     playChallenge22: function() {
         // kap2form1Play
-        if(!document.getElementById('multiaudio6').paused) {
+        if(custom_AudioMediaPlayer.isPlaying) {
             // Playing
             var imgs = document.getElementsByName('kap2form1Play');
             for (var iKey in imgs) {
-                //imgs[iKey].src = 'resources/images/play.png';
-                if (Ext.os.is.Android) {
+if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_play.png';
                 }else{
                      imgs[iKey].src = 'resources/images/play.png';
                 }
             }
-            document.getElementById('multiaudio6').pause();
+             custom_AudioMediaPlayer.pauseAudio("multiaudio6");
         } else {
             // Not playing
             var imgs = document.getElementsByName('kap2form1Play');
             for (var iKey in imgs) {
-                //imgs[iKey].src = 'resources/images/paus.png';
-                if (Ext.os.is.Android) {
+ if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_pause.png';
                 }else{
                      imgs[iKey].src = 'resources/images/paus.png';
                 } 
             }
-            document.getElementById('multiaudio6').play();
+            custom_AudioMediaPlayer.playAudio("resources/audio/utmaning1.mp3","multiaudio6");
         }
     },
     playKapitel3: function() {
         // kap3Play
-        if(!document.getElementById('multiaudio4').paused) {
+        if(custom_AudioMediaPlayer.isPlaying) {
             // Playing
             var imgs = document.getElementsByName('kap3Play');
             for (var iKey in imgs) {
-                //imgs[iKey].src = 'resources/images/play.png';
-                if (Ext.os.is.Android) {
+               if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_play.png';
                 }else{
                      imgs[iKey].src = 'resources/images/play.png';
                 }
-            }
-            document.getElementById('multiaudio4').pause();
+            }              custom_AudioMediaPlayer.pauseAudio("multiaudio4");
         } else {
             // Not playing
             var imgs = document.getElementsByName('kap3Play');
             for (var iKey in imgs) {
-                //imgs[iKey].src = 'resources/images/paus.png';
-                if (Ext.os.is.Android) {
+             if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_pause.png';
                 }else{
                      imgs[iKey].src = 'resources/images/paus.png';
                 } 
             }
-            document.getElementById('multiaudio4').play();
+           custom_AudioMediaPlayer.playAudio("resources/audio/kapitel3.mp3","multiaudio4");
+           
         }
     },
     playChallenge3: function() {
         // kap3formPlay
-        if(!document.getElementById('multiaudio7').paused) {
+        if(custom_AudioMediaPlayer.isPlaying) {
             // Playing
             var imgs = document.getElementsByName('kap3formPlay');
             for (var iKey in imgs) {
-                //imgs[iKey].src = 'resources/images/play.png';
-                if (Ext.os.is.Android) {
+             if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_play.png';
                 }else{
                      imgs[iKey].src = 'resources/images/play.png';
                 }
-            }
-            document.getElementById('multiaudio7').pause();
+            }            custom_AudioMediaPlayer.pauseAudio("multiaudio7");
         } else {
             // Not playing
             var imgs = document.getElementsByName('kap3formPlay');
             for (var iKey in imgs) {
-                //imgs[iKey].src = 'resources/images/paus.png';
-                if (Ext.os.is.Android) {
+if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_pause.png';
                 }else{
                      imgs[iKey].src = 'resources/images/paus.png';
                 } 
             }
-            document.getElementById('multiaudio7').play();
+           custom_AudioMediaPlayer.playAudio("resources/audio/utmaning2.mp3","multiaudio7");
         }
     },
     playAvslutning: function() {
         // avslPlay
-        if(!document.getElementById('multiaudio5').paused) {
+        if(custom_AudioMediaPlayer.isPlaying) {
             // Playing
             var imgs = document.getElementsByName('avslPlay');
             for (var iKey in imgs) {
-                //imgs[iKey].src = 'resources/images/play.png';
-                if (Ext.os.is.Android) {
+ if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_play.png';
                 }else{
                      imgs[iKey].src = 'resources/images/play.png';
                 }
-            }
-            document.getElementById('multiaudio5').pause();
+            }            custom_AudioMediaPlayer.pauseAudio("multiaudio5");
         } else {
             // Not playing
             var imgs = document.getElementsByName('avslPlay');
             for (var iKey in imgs) {
-                //imgs[iKey].src = 'resources/images/paus.png';
-                if (Ext.os.is.Android) {
+             if (Ext.os.is.Android) {
                   imgs[iKey].src = 'resources/images/ic_action_pause.png';
                 }else{
                      imgs[iKey].src = 'resources/images/paus.png';
                 } 
             }
-            document.getElementById('multiaudio5').play();
+           custom_AudioMediaPlayer.playAudio("resources/audio/slutord.mp3","multiaudio5");
         }
     },
     avtal: function(){
