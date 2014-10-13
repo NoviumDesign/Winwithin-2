@@ -40,7 +40,7 @@ var custom_AudioMediaPlayer = {
                         }
                         else
                         {
-                         if(typeof audioView != "undefined")
+                         if(typeof audioView != "undefined" && document.getElementById(audioView))
                          { 
                          document.getElementById(audioView).pause();
                          document.getElementById(audioView).currentTime = 0;
