@@ -224,6 +224,6 @@ Ext.define('WinWithin.view.Kapitel1form', {
     },
     config: {
         fullscreen: true,
-        scrollable: false
+        scrollable: true
     }
 });
