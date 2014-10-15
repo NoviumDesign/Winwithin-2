@@ -11,6 +11,7 @@ Ext.define('WinWithin.view.Kapitel3form', {
         var topToolbar = {
             xtype: "toolbar",
             docked: 'top',
+            height:50,
             title: 'Utmaning',
             style: {
                 'background': '#905f79'

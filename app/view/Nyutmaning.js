@@ -7,6 +7,7 @@ Ext.define('WinWithin.view.Nyutmaning', {
         var topToolbar = {
             xtype: "toolbar",
             docked: 'top',
+            height:50,
             title: 'Ny utmaning',
             style: {
                 'background': '#794849'
