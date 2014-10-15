@@ -33,16 +33,14 @@ Ext.define('WinWithin.view.Utmaningar', {
                 text: 'Utmaningar',
                 iconMask: true
             },{
-                xtype: 'spacer'
-            },
-            {
                 xtype: 'button',
+                docked:'right',
                 style: {
                     'background': 'none'
                 },
                 handler: this.onNew,
                 scope: this,
-                html: '<img src="resources/images/ic_action_new.png" style="width:22px; margin-top: 3px;" />',
+                html: '<img src="resources/images/ic_action_new.png" style="width:22px; margin-top: 10px;" />',
                 iconMask: true
             }
             ]
