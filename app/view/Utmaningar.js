@@ -35,6 +35,7 @@ Ext.define('WinWithin.view.Utmaningar', {
             },{
                 xtype: 'button',
                 docked:'right',
+                cls: 'new-challange-button',
                 style: {
                     'background': 'none'
                 },
