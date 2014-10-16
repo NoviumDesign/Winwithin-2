@@ -75,7 +75,7 @@ Ext.define('WinWithin.view.Nyutmaning', {
         var panel = {
             xtype: 'panel',
             layout: 'fit',
-            cls: 'form-container',
+            cls: 'form-container hideArrow',
             // style: { 
             //     'padding': '12px'
             // },
