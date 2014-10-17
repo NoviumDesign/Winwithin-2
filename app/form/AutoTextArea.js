@@ -29,6 +29,12 @@ Ext.define('WinWithin.form.AutoTextArea', {
             },
             activate: function(textarea) {
                 textarea.adjustHeight(textarea);
+            },
+            focus: function(textareafld) {
+                var textareavalue = textareafld.getValue();
+                textareafld.focus(); 
+                textareafld.setValue('');
+                textareafld.setValue(textareavalue);
             }
         });
     }
