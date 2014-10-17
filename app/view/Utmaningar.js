@@ -30,7 +30,7 @@ Ext.define('WinWithin.view.Utmaningar', {
                 },
                 handler: this.onMenu,
                 scope: this,
-                text: 'Utmaningar',
+                text: '',
                 iconMask: true
             },{
                 xtype: 'button',
