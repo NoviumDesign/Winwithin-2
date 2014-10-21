@@ -428,6 +428,7 @@ if (Ext.os.is.Android) {
                     }
                     kapitel2form2.setRecord(record);
                     kapitel2form2.updateWithForm();
+                    kapitel2form2.getScrollable().getScroller().scrollTo(0,0);
                     Ext.Viewport.animateActiveItem(kapitel2form2, {type:'slide', direction:'left'});
                 break;
             case 'Relevant eller grundlös tanke':
@@ -470,6 +471,7 @@ if (Ext.os.is.Android) {
                     
                     kapitel3form.setRecord(record);
                     kapitel3form.updateWithForm();
+                    kapitel3form.getScrollable().getScroller().scrollTo(0,0);
                     Ext.Viewport.animateActiveItem(kapitel3form, {type:'slide', direction:'left'});
                 break;
         }
@@ -699,6 +701,7 @@ if (Ext.os.is.Android) {
             }
             kapitel2form2.setRecord(record);
             kapitel2form2.updateWithForm();
+            kapitel2form2.getScrollable().getScroller().scrollTo(0,0);
             Ext.Viewport.animateActiveItem(kapitel2form2, {type:'slide', direction:'left'});
         }else{
             var utmaningar = this.getUtmaningar();
@@ -950,6 +953,7 @@ if (Ext.os.is.Android) {
             
             kapitel3form.setRecord(record);
             kapitel3form.updateWithForm();
+            kapitel3form.getScrollable().getScroller().scrollTo(0,0);
             Ext.Viewport.animateActiveItem(kapitel3form, {type:'slide', direction:'left'});
         }else{
             var utmaningar = this.getUtmaningar();

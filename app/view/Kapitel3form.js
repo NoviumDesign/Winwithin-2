@@ -197,6 +197,8 @@ Ext.define('WinWithin.view.Kapitel3form', {
             forslagPanel.add(
                 { xtype: 'panel',
                 cls: 'clearfix borderrr',
+                layout:'vbox',
+                flex:1,
                 style: {
                     'position': 'relative',
                 },

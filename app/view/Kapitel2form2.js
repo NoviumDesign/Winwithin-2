@@ -157,6 +157,8 @@ Ext.define('WinWithin.view.Kapitel2form2', {
         this.relBevis.push('');
         var bevisPanel = new Ext.Panel({
             padding: 0,
+            layout:'vbox',
+            flex:1,
             cls: 'form-container',
             style: {
                 'background': '#e5e5e5'
@@ -209,6 +211,8 @@ Ext.define('WinWithin.view.Kapitel2form2', {
         this.grundBevis.push('');
         var grundPanel = new Ext.Panel({
             padding: 0,
+            layout:'vbox',
+            flex:1,
             cls: 'form-container',
             style: {
                 'background': '#e5e5e5'
