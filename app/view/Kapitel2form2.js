@@ -373,6 +373,7 @@ Ext.define('WinWithin.view.Kapitel2form2', {
                         handler: this.onRadera,
                         scope: this,
                         html: 'Radera',
+                        cls: 'delete',
                         style: {
                             'background': '#cc272b',
                             'color': 'white',
